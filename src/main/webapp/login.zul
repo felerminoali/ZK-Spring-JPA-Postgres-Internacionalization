@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?page id="clientGUI" title="Sofara Autenticação"?>
-<?link rel="stylesheet" type="text/css" href="/style.css"?>
-
 <zk xmlns="http://www.zkoss.org/2005/zul">
-    <hbox self="@define(content)" vflex="1" hflex="1" align="center"
+    <hbox self="" vflex="1" hflex="1" align="center"
           pack="center" spacing="20px" style="background:#8e8e8e">
         
         <vlayout >
