@@ -4,7 +4,7 @@
         
         <vlayout >
             <window id="loginWin"
-                    apply="esira.controller.authentication.LoginController"
+
                      sclass="z-window-embedded-cnt" title="Entre no sistema:" width="400px" height="250px">
                 <vbox hflex="min" sclass="button-blue" >
                     <textbox id="account" width="350px" height="30px"/>
