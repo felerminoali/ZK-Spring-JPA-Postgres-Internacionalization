@@ -7,7 +7,7 @@
             </toolbar>
         </panel>
         <groupbox>
-
+            <caption sclass="folder" label="Dados da conta do cliente" />
 
         <grid>
             <columns>
