@@ -1,10 +1,9 @@
 <zk>
-
     <div >
         <grid>
             <columns>
-                <column label="Type" width="120px" />
-                <column label="Content" />
+                <column width="120px" />
+                <column  />
 
             </columns>
             <rows>
@@ -40,7 +39,7 @@
                 <row>
                     Age:
                     <cell>
-                        <intbox value="" width="150px"  tabindex="4" />
+                        <intbox  width="150px"  tabindex="4" />
                         <label class="error"
                                value="" />
                     </cell>
@@ -50,6 +49,7 @@
                     </div>
                 </row>
                 <row>
+
                     Phone:
                     <textbox constraint="no empty" value=""
                              width="150px" maxlength="15" tabindex="5" />
