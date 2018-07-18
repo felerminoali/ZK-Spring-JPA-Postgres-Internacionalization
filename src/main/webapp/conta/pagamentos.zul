@@ -4,44 +4,47 @@
             <toolbar id="tb" height="30px" align="start">
                 <toolbarbutton image="img/icons/45.png"/>
             </toolbar>
-        </panel>
-        <groupbox mold="3d">
-            <caption sclass="folder" label="${labels.clientinfo}" />
+            <panelchildren>
+                <groupbox mold="3d">
+                    <caption sclass="folder" label="${labels.clientinfo}" />
 
-        <grid>
-            <columns>
-                <column width="120px" />
-                <column  />
-                <column width="120px" />
-                <column  />
-            </columns>
-            <rows>
-                <row>
-                    <label value="${labels.account}" width="150px" />
-                    <hlayout>
-                        <textbox disabled="true" value=""
-                                 width="150px" tabindex="1" />
-                    </hlayout>
-                    <label value="${labels.accountname}" width="150px" />
-                    <hlayout>
-                        <textbox disabled="true" value=""
-                                 width="150px" tabindex="1" />
-                    </hlayout>
-                </row>
-                <row>
-                    <label value="${labels.legalentitytype}" width="150px" />
-                    <hlayout>
-                        <combobox id="cmbColor" width="150px">
-                        </combobox>
-                    </hlayout>
-                    <label value="${labels.nuit}" width="150px" />
-                    <hlayout>
-                        <textbox value=""
-                                 width="150px" tabindex="1" />
-                    </hlayout>
-                </row>
-            </rows>
-        </grid>
-        </groupbox>
+                    <grid>
+                        <columns>
+                            <column width="120px" />
+                            <column  />
+                            <column width="120px" />
+                            <column  />
+                        </columns>
+                        <rows>
+                            <row>
+                                <label value="${labels.account}" width="150px" />
+                                <hlayout>
+                                    <textbox disabled="true" value=""
+                                             width="150px" tabindex="1" />
+                                </hlayout>
+                                <label value="${labels.accountname}" width="150px" />
+                                <hlayout>
+                                    <textbox disabled="true" value=""
+                                             width="150px" tabindex="1" />
+                                </hlayout>
+                            </row>
+                            <row>
+                                <label value="${labels.legalentitytype}" width="150px" />
+                                <hlayout>
+                                    <combobox id="cmbColor" width="150px">
+                                    </combobox>
+                                </hlayout>
+                                <label value="${labels.nuit}" width="150px" />
+                                <hlayout>
+                                    <textbox value=""
+                                             width="150px" tabindex="1" />
+                                </hlayout>
+                            </row>
+                        </rows>
+                    </grid>
+                </groupbox>
+            </panelchildren>
+        </panel>
+
     </div>
 </zk>
