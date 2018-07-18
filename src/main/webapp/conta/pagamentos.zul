@@ -1,10 +1,14 @@
 <zk>
+
     <div >
         <panel>
             <toolbar id="tb" height="30px" align="start">
                 <toolbarbutton image="img/icons/45.png"/>
             </toolbar>
         </panel>
+        <groupbox>
+
+
         <grid>
             <columns>
                 <column width="120px" />
@@ -39,5 +43,6 @@
                 </row>
             </rows>
         </grid>
+        </groupbox>
     </div>
 </zk>
