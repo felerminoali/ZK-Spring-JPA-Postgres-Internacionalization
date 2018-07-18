@@ -5,7 +5,7 @@
                 <toolbarbutton image="img/icons/45.png"/>
             </toolbar>
         </panel>
-        <groupbox width="300px">
+        <groupbox mold="3d">
             <caption sclass="folder" label="Dados da conta do cliente" />
 
         <grid>
