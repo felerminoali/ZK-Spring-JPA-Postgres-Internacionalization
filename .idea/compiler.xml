@@ -9,7 +9,7 @@
         <module name="municipioapp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="9">
       <module name="municipioapp" target="1.4" />
     </bytecodeTargetLevel>
   </component>
