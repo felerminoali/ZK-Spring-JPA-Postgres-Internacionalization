@@ -9,12 +9,12 @@
             </columns>
             <rows>
                 <row>
-                    <label value="conta do cliente" width="150px" />
+                    <label value="${labels.account}" width="150px" />
                     <hlayout>
                         <textbox value=""
                                  width="150px" tabindex="1" />
                     </hlayout>
-                    <label value="Nome da conta" width="150px" />
+                    <label value="${labels.accountname}" width="150px" />
                     <hlayout>
                         <textbox value=""
                                  width="150px" tabindex="1" />
