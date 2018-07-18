@@ -29,53 +29,6 @@
     class. define the context component-scan basepackage, this will scan all 
     @Repository annotated Class -->	
 
-    <bean id="sessionFactory"
-          class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-        <!--   <property name="dataSource" ref="c3p0DataSource" />-->
-        <property name="packagesToScan" value="municipio.domain" />
-        <property name="hibernateProperties">
-            <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
-                <!--    <prop key="hibernate.default_schema">fecn1</prop>-->
-                <prop key="hibernate.hbm2ddl.auto">update</prop>
-              
-                <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.format_sql">true</prop>
-                <prop key="hibernate.use_sql_comments">true</prop>
-                <prop key="hibernate.zeroDateTimeBehavior">convertToNull</prop>
-                <prop key="hibernate.c3p0.privilegeSpawnedThreads">true</prop><!--adicionado com multitenant para destruir threads de pool perdidos-->
-                <prop key="hibernate.c3p0.contextClassLoaderSource">library</prop> 
-            </props>
-        </property>
-        <!-- Enable Hibernate's automatic session context management -->
-    </bean>
 
-
-    <bean id="transactionManager"
-          class="esira.hibernate.HibernateTransationManagerImpl" >
-        <property name="sessionFactory" ref="sessionFactory" />
-    </bean>
-
-    <!-- Container Configuration: The IOC container configuration xml file is 
-    shown below,The container has the <context:component-scan> element and <context:annotation-config/> 
-    <context:annotation-config/> used to intimate the beans of this IOC container 
-    are annotation supported. By pass the base path of the beans as the value 
-    of the base-package attribute of context:component-scan element, we can detect 
-    the beans and registering their bean definitions automatically without lots 
-    of overhead. The value of base-package attribute is fully qualified package 
-    name of the bean classes. We can pass more than one package names by comma 
-    separated -->    
-
-    <context:annotation-config />
-    <context:component-scan base-package="municipio"/>
-      
-
-    <tx:annotation-driven transaction-manager="transactionManager" />
-
-	 
-    <bean id="CRUDService" class="municipio.service.CRUDServiceImpl" />
-    <!--   <bean id="staffDao" class="esira.saas.dao.impl.StaffDAOImpl" >
-            <property name="sessionFactory" ref="sessionFactory"/>
-    </bean> -->
 
 </beans> 
