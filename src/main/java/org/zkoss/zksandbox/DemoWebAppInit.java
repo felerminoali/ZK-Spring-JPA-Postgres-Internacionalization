@@ -80,7 +80,7 @@ public class DemoWebAppInit implements WebAppInit {
 
 		// ========================================
 
-		HttpSession session = (HttpSession) Sessions.getCurrent().getNativeSession();
+//		HttpSession session = (HttpSession) Sessions.getCurrent().getNativeSession();
 
 //		String localeValue = "pt";
 //		Locale prefer_locale = new Locale(localeValue);
