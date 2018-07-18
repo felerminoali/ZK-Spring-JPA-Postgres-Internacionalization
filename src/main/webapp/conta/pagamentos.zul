@@ -1,12 +1,11 @@
 <zk>
-
     <div >
         <panel>
             <toolbar id="tb" height="30px" align="start">
                 <toolbarbutton image="img/icons/45.png"/>
             </toolbar>
         </panel>
-        <groupbox>
+        <groupbox width="300px">
             <caption sclass="folder" label="Dados da conta do cliente" />
 
         <grid>
