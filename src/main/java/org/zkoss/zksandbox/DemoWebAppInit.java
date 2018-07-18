@@ -86,12 +86,12 @@ public class DemoWebAppInit implements WebAppInit {
 //		Locale prefer_locale = new Locale(localeValue);
 //		session.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
 
-		if(session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE) == null){
-			CONFIG = "zksandbox.properties";
-		}else {
-			String lang =  session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE).toString();
-			CONFIG = "zksandbox_"+lang+".properties";
-		}
+//		if(session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE) == null){
+//			CONFIG = "zksandbox.properties";
+//		}else {
+//			String lang =  session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE).toString();
+//			CONFIG = "zksandbox_"+lang+".properties";
+//		}
 
 		// =============================================================
 		loadProperites((ServletContext)wapp.getNativeContext());
