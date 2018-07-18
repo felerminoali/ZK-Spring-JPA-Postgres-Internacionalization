@@ -29,8 +29,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="321">
+              <caret line="49" column="26" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -257,23 +257,23 @@
       <workItem from="1531635437391" duration="2331000" />
       <workItem from="1531639427773" duration="3655000" />
       <workItem from="1531753439062" duration="8950000" />
-      <workItem from="1531896202309" duration="6728000" />
+      <workItem from="1531896202309" duration="6996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29917000" />
+    <option name="totallyTimeSpent" value="30185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -287,7 +287,7 @@
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.50570965" side_tool="true" weight="0.19894099" />
@@ -296,7 +296,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
@@ -555,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="321">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -14,9 +14,6 @@
                         <textbox value=""
                                  width="150px" tabindex="1" />
                     </hlayout>
-                    <div>
-                        <label sclass="hightlight">Textbox</label>
-                    </div>
                 </row>
                 <row>
                     Password
