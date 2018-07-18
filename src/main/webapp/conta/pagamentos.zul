@@ -6,7 +6,7 @@
             </toolbar>
         </panel>
         <groupbox mold="3d">
-            <caption sclass="folder" label="${label.clientinfo}" />
+            <caption sclass="folder" label="${labels.clientinfo}" />
 
         <grid>
             <columns>
