@@ -19,12 +19,12 @@
                 <row>
                     <label value="${labels.account}" width="150px" />
                     <hlayout>
-                        <textbox value=""
+                        <textbox disabled="true" value=""
                                  width="150px" tabindex="1" />
                     </hlayout>
                     <label value="${labels.accountname}" width="150px" />
                     <hlayout>
-                        <textbox value=""
+                        <textbox disabled="true" value=""
                                  width="150px" tabindex="1" />
                     </hlayout>
                 </row>
