@@ -79,13 +79,15 @@ public class DemoWebAppInit implements WebAppInit {
 	};
 	
 	public void init(WebApp wapp) throws Exception {
+		setLanguagesProperties(wapp); // created by Felas
+		loadProperites((ServletContext)wapp.getNativeContext());
+		setThemeProperites();
+		initThemes();
+	}
 
-
+	private void setLanguagesProperties(WebApp wapp) {
 		// ========================================
-
-
-
-		String localeValue = "pt";
+		String localeValue = "pt"; // Need to remove this line
 		Locale prefer_locale = new Locale(localeValue);
 
 		wapp.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
@@ -96,11 +98,7 @@ public class DemoWebAppInit implements WebAppInit {
 			String lang =  wapp.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE).toString();
 			CONFIG = "zksandbox_"+lang+".properties";
 		}
-
 		// =============================================================
-		loadProperites((ServletContext)wapp.getNativeContext());
-		setThemeProperites();
-		initThemes();
 	}
 
 	private static void initThemes() {
