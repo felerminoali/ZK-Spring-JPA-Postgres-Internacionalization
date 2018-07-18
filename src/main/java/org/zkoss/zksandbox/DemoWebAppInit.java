@@ -33,9 +33,11 @@ import javax.servlet.ServletContext;
 import org.zkoss.lang.Library;
 import org.zkoss.util.logging.Log;
 import org.zkoss.util.resource.ClassLocator;
+import org.zkoss.zk.ui.Executions;
 import org.zkoss.zk.ui.Session;
 import org.zkoss.zk.ui.Sessions;
 import org.zkoss.zk.ui.WebApp;
+import org.zkoss.zk.ui.ext.ScopeListener;
 import org.zkoss.zk.ui.util.WebAppInit;
 
 /**
@@ -81,8 +83,7 @@ public class DemoWebAppInit implements WebAppInit {
 
 		// ========================================
 
-		Session session = Sessions.getCurrent();
-
+		Session session = Executions.getCurrent().getSession();
 		String localeValue = "pt";
 		Locale prefer_locale = new Locale(localeValue);
 		session.setAttribute("a",prefer_locale);
