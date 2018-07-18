@@ -83,10 +83,12 @@ public class DemoWebAppInit implements WebAppInit {
 
 		// ========================================
 
-		Session session = Executions.getCurrent().getSession();
+
+
 		String localeValue = "pt";
 		Locale prefer_locale = new Locale(localeValue);
-		session.setAttribute("a",prefer_locale);
+
+		wapp.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
 		//session.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
 
 //		if(session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE) == null){
