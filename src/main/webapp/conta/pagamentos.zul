@@ -5,7 +5,7 @@
             <columns>
                 <column label="Type" width="120px" />
                 <column label="Content" />
-                <column label="Component" width="200px" />
+
             </columns>
             <rows>
                 <row>
@@ -45,7 +45,7 @@
                     <cell>
                         <intbox value="" width="150px"  tabindex="4" />
                         <label class="error"
-                               value="@load(vmsgs['age'])" />
+                               value="" />
                     </cell>
                     <div>
                         <label sclass="hightlight">Intbox</label>

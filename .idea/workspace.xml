@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/zksandbox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/zksandbox.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="122" column="40" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="122" selection-end-column="40" />
+            <state relative-caret-position="357">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -258,12 +257,12 @@
       <workItem from="1531635437391" duration="2331000" />
       <workItem from="1531639427773" duration="3655000" />
       <workItem from="1531753439062" duration="8950000" />
-      <workItem from="1531896202309" duration="6468000" />
+      <workItem from="1531896202309" duration="6728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29657000" />
+    <option name="totallyTimeSpent" value="29917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -284,7 +283,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.51549757" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.19894099" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -556,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="122" column="40" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="122" selection-end-column="40" />
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
