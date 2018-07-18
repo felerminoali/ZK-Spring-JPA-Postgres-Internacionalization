@@ -24,13 +24,16 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.Enumeration;
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map;
 
 import javax.servlet.ServletContext;
+import javax.servlet.http.HttpSession;
 
 import org.zkoss.lang.Library;
 import org.zkoss.util.logging.Log;
 import org.zkoss.util.resource.ClassLocator;
+import org.zkoss.zk.ui.Sessions;
 import org.zkoss.zk.ui.WebApp;
 import org.zkoss.zk.ui.util.WebAppInit;
 
@@ -44,7 +47,7 @@ public class DemoWebAppInit implements WebAppInit {
 	
 	final static String PATH = "/";
 
-	final static String CONFIG = "zksandbox.properties";
+	static String CONFIG = "zksandbox.properties";
 
 	final static String CATEGORY_TYPE = "CATEGORY";
 	
@@ -73,6 +76,24 @@ public class DemoWebAppInit implements WebAppInit {
 	};
 	
 	public void init(WebApp wapp) throws Exception {
+
+
+		// ========================================
+
+		HttpSession session = (HttpSession) Sessions.getCurrent().getNativeSession();
+
+		String localeValue = "pt";
+		Locale prefer_locale = new Locale(localeValue);
+		session.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
+
+		if(session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE) == null){
+			CONFIG = "zksandbox.properties";
+		}else {
+			String lang =  session.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE).toString();
+			CONFIG = "zksandbox_"+lang+".properties";
+		}
+
+		// =============================================================
 		loadProperites((ServletContext)wapp.getNativeContext());
 		setThemeProperites();
 		initThemes();
