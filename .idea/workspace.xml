@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/bandbox.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/button.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/combobox.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/datebox.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/fckeditor.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/form.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/hello.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/popup.zul" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form/radio.zul" beforeDir="false" />
-    </list>
+    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,39 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
+      <file leaf-file-name="zksandbox_pt.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/zksandbox_pt.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZK-Logo.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/ZK-Logo.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="ZK-Logo-old.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/ZK-Logo-old.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.zul" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.zul">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="i3-label.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" selection-start-line="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="62" />
             </state>
           </provider>
           <provider editor-type-id="ResourceBundle" />
@@ -200,6 +162,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DNIC2012\IdeaProjects\teste\municipioapp\src\main\webapp\img\Centigrade-Widget-Icons" />
       <recent name="C:\Users\DNIC2012\IdeaProjects\teste\municipioapp\src\main\webapp\img\icons" />
       <recent name="C:\Users\DNIC2012\IdeaProjects\teste\municipioapp\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\DNIC2012\IdeaProjects\teste\municipioapp\src\main\webapp" />
@@ -277,16 +240,15 @@
       <workItem from="1531635437391" duration="2331000" />
       <workItem from="1531639427773" duration="3655000" />
       <workItem from="1531753439062" duration="8950000" />
-      <workItem from="1531896202309" duration="19513000" />
+      <workItem from="1531896202309" duration="20012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42702000" />
+    <option name="totallyTimeSpent" value="43201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -363,34 +325,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="86" selection-start-column="86" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6154">
-          <caret line="362" column="42" lean-forward="true" selection-start-line="362" selection-start-column="42" selection-end-line="362" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/window.zul">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/form/radio.zul" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3281">
@@ -542,12 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/zksandbox_pt.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/img/z-bullet3.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -625,6 +553,29 @@
           <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/component/bandbox-rounded.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/component/bandbox-rounded-s.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/component/combobox-rounded-s.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/component/datebox-rounded-s.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/component/g-bandbox-rounded-s.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/zksandbox_pt.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
   </component>
   <component name="masterDetails">
