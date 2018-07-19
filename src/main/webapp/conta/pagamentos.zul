@@ -8,7 +8,10 @@
             </toolbar>
             <panelchildren>
                 <groupbox mold="3d">
-                    <caption sclass="folder" label="${labels.clientinfo}" />
+                    <attribute name="onOpen">
+                        <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
+                    </attribute>
+                    <caption  sclass="folder" label="${labels.clientinfo}" />
 
                     <grid>
                         <columns sizable="true">
