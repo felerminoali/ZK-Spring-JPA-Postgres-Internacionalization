@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/style.css"?>
 <zk>
     <div >
         <panel>
@@ -9,37 +11,53 @@
                     <caption sclass="folder" label="${labels.clientinfo}" />
 
                     <grid>
-                        <columns>
-                            <column width="120px" />
-                            <column  />
-                            <column width="120px" />
-                            <column  />
+                        <columns sizable="true">
+                            <column hflex="1" vflex="1" />
                         </columns>
                         <rows>
-                            <row spans="2">
-                                <label value="${labels.account}" width="150px" />
-                                <hlayout>
-                                    <textbox disabled="true" value=""
-                                             width="150px" tabindex="1" />
-                                </hlayout>
-                                <label value="${labels.accountname}" width="150px" />
-                                <hlayout>
-                                    <textbox disabled="true" value=""
-                                             width="150px" tabindex="1" />
-                                </hlayout>
-                            </row>
                             <row>
-                                <label value="${labels.legalentitytype}" width="150px" />
-                                <hlayout>
-                                    <combobox id="cmbColor" width="150px">
-                                    </combobox>
+                            <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.account}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <textbox disabled="true" value="" hflex="1" id="idnrconta" width="200px" constraint=" no Empty: Preenche o campo!"/>
+                                </div>
+                            </hlayout>
+                            </row >
+                            <row>
+                            <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.accountname}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <textbox disabled="true" value="" hflex="1" id="idnomeconta" width="200px" constraint=" no Empty: Preenche o campo!"/>
+                                </div>
+                            </hlayout>
+                            </row >
+
+                            <row>
+                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                    <div sclass="description-area" height="100%">
+                                        <label value="${labels.legalentitytype}"/>
+                                    </div>
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbColor" width="200px" constraint=" no Empty: Seleccione um item!">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
                                 </hlayout>
-                                <label value="${labels.nuit}" width="150px" />
-                                <hlayout>
-                                    <textbox value=""
-                                             width="150px" tabindex="1" />
+                            </row >
+                            <row>
+                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                    <div sclass="description-area" height="100%">
+                                        <label value="${labels.nuit}"/>
+                                    </div>
+                                    <div sclass="description-area" height="100%">
+                                        <textbox value="" hflex="1" id="" width="200px" constraint=" no Empty: Preenche o campo!"/>
+                                    </div>
                                 </hlayout>
-                            </row>
+                            </row >
                         </rows>
                     </grid>
                 </groupbox>
