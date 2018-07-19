@@ -93,7 +93,7 @@ public class DemoWebAppInit implements WebAppInit {
 		wapp.setAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE, prefer_locale);
 
 		if(wapp.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE) == null){
-			CONFIG = "zksandbox.properties";
+			CONFIG = "zksandbox_pt.properties";
 		}else {
 			String lang =  wapp.getAttribute(org.zkoss.web.Attributes.PREFERRED_LOCALE).toString();
 			CONFIG = "zksandbox_"+lang+".properties";
