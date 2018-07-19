@@ -101,6 +101,6 @@
                 </groupbox>
             </panelchildren>
         </panel>
-
+        <button sclass="button2"/>
     </div>
 </zk>
