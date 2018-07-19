@@ -40,12 +40,14 @@
 
     <repositories>
         <repository>
-            <id>zk repository</id>
+            <id>ZK CE</id>
+            <name>ZK CE Repository</name>
             <url>http://mavensync.zkoss.org/maven2</url>
         </repository>
         <repository>
-            <id>ZK EE Evaluation</id>
-            <url>http://mavensync.zkoss.org/zk/ee-eval</url>
+            <id>ZK EVAL</id>
+            <name>ZK Evaluation Repository</name>
+            <url>http://mavensync.zkoss.org/eval</url>
         </repository>
         <repository>
             <id>repository.springsource.milestone</id>
