@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="92" column="88" selection-start-line="92" selection-start-column="88" selection-end-line="92" selection-end-column="88" />
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -39,8 +36,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+            <state relative-caret-position="278">
+              <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -150,7 +147,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -321,12 +318,12 @@
       <workItem from="1531639427773" duration="3655000" />
       <workItem from="1531753439062" duration="8950000" />
       <workItem from="1531896202309" duration="26894000" />
-      <workItem from="1532000611375" duration="7753000" />
+      <workItem from="1532000611375" duration="8224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57836000" />
+    <option name="totallyTimeSpent" value="58307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -635,14 +632,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="92" column="88" selection-start-line="92" selection-start-column="88" selection-end-line="92" selection-end-column="88" />
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        <state relative-caret-position="278">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
         </state>
       </provider>
     </entry>
