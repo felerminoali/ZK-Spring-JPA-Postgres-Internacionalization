@@ -69,7 +69,7 @@
                             <row>
                                 <label value="${labels.legalentitytype}" width="150px" />
                                 <hlayout>
-                                    <combobox id="cmbColor" width="150px">
+                                    <combobox id="cmbColor2" width="150px">
                                     </combobox>
                                 </hlayout>
                                 <label value="${labels.nuit}" width="150px" />
