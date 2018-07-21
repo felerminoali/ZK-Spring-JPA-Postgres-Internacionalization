@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
@@ -15,6 +16,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/municipioapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/municipioapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +51,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,10 +75,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+=======
+      <file leaf-file-name="i3-label_pt.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="19" column="10" selection-start-line="19" selection-end-line="19" selection-end-column="10" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
             </state>
           </provider>
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,24 +122,51 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+=======
+      <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="104" column="139" selection-start-line="104" selection-start-column="120" selection-end-line="104" selection-end-column="139" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="CRUDDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+=======
+      <file leaf-file-name="i3-label.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
             </state>
           </provider>
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+=======
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="138" selection-start-line="9" selection-start-column="138" selection-end-line="9" selection-end-column="138" />
+              </first_editor>
+              <second_editor />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
             </state>
           </provider>
         </entry>
@@ -163,7 +208,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.zul" />
         <option value="$PROJECT_DIR$/src/main/webapp/zksandbox.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/zkoss/zksandbox/model/EntidadeLegal.java" />
@@ -171,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/zkoss/zksandbox/DemoWebAppInit.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.zul" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" />
@@ -180,6 +225,14 @@
         <option value="$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
       </list>
     </option>
   </component>
@@ -210,9 +263,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="370" />
     <option name="y" value="171" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -223,6 +280,11 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,21 +315,49 @@
               <item name="municipioapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="municipio" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="conta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="municipioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="municipioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="municipioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="municipioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+=======
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;DDL Data Source" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -385,14 +475,23 @@
       <workItem from="1531753439062" duration="8950000" />
       <workItem from="1531896202309" duration="26894000" />
       <workItem from="1532000611375" duration="9801000" />
+<<<<<<< HEAD
       <workItem from="1532163171850" duration="5363000" />
       <workItem from="1532172858131" duration="2366000" />
       <workItem from="1532175578314" duration="404000" />
+=======
+      <workItem from="1532163171850" duration="2674000" />
+      <workItem from="1532254513615" duration="703000" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="68017000" />
+=======
+    <option name="totallyTimeSpent" value="66054000" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -409,12 +508,21 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.59380096" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32952693" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22838499" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48995984" visible="true" weight="0.21255673" />
       <window_info id="Web" order="2" sideWeight="0.51004016" side_tool="true" weight="0.31240544" />
       <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.32980332" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24632953" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48995984" visible="true" weight="0.20953101" />
+      <window_info id="Web" order="2" sideWeight="0.51004016" side_tool="true" weight="0.31240544" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32980332" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
@@ -424,6 +532,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
@@ -472,6 +581,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/form/hello.zul" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/window.zul">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/form/radio.zul" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
     <entry file="file://$PROJECT_DIR$/src/main/webapp/toolbar/context.zul">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -562,13 +679,7 @@
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zkoss/zksandbox/CometServerPush.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -621,11 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/zkoss/zksandbox/DemoWebAppInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="1428">
           <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,24 +758,42 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="10" selection-start-line="14" selection-end-line="14" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.servlet-2.3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
@@ -677,9 +803,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+=======
+        <state>
+          <caret line="19" column="10" selection-start-line="19" selection-end-line="19" selection-end-column="10" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -687,9 +819,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -718,6 +858,28 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="139" selection-start-line="104" selection-start-column="120" selection-end-line="104" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dce1c1c5-572b-4f59-b290-98705d8e9862/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4032663c-1ff0-4ccf-9c9f-0ba49170b5a3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="138" selection-start-line="9" selection-start-column="138" selection-end-line="9" selection-end-column="138" />
+          </first_editor>
+          <second_editor />
+>>>>>>> 0e57df8ac21c9a1d4b873599792d5c744640af4f
         </state>
       </provider>
     </entry>
