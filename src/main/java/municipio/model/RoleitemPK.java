@@ -1,4 +1,4 @@
-package municipio.modelo;
+package municipio.model;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
