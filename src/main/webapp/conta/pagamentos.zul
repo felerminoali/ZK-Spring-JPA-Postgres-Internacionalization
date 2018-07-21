@@ -45,7 +45,7 @@
                                         <label value="${labels.legalentitytype}"/>
                                     </div>
                                     <div sclass="description-area" height="100%">
-                                        <combobox hflex="1" id="cmbColor" width="200px" constraint=" no Empty: Seleccione um item!">
+                                        <combobox hflex="1" id="cmbColor" width="200px" constraint=" no Empty: ${labels.selectone}">
                                             <comboitem label="${each.descricao}"/>
                                         </combobox>
                                     </div>
@@ -102,7 +102,7 @@
                                 </div>
                                 <div sclass="description-area" height="100%">
                                     <div sclass="description-area" height="100%">
-                                        <combobox hflex="1" id="cmbTypeofdocument" width="200px" constraint=" no Empty: Seleccione um item!">
+                                        <combobox hflex="1" id="cmbTypeofdocument" width="200px" constraint=" no Empty: ${labels.selectone}">
                                             <comboitem label="${each.descricao}"/>
                                         </combobox>
                                     </div>
@@ -128,6 +128,67 @@
                                     </div>
                                 </div>
                             </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.countryissued}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbCountryissued" width="200px" constraint=" no Empty: ${labels.selectone}">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.nationality}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbNationality" width="200px" constraint=" no Empty: ${labels.selectone}">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.citizenship}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbCitizenship" width="200px" constraint=" no Empty: ${labels.selectone}">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.maritalstatus}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbMaritalstatus" width="200px" constraint=" no Empty: ${labels.selectone}">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.sex}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbSex" width="200px" constraint=" no Empty: ${labels.selectone}">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+
                         </rows>
                     </grid>
                 </groupbox>
