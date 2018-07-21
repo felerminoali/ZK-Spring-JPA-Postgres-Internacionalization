@@ -65,39 +65,20 @@
                     </grid>
                 </groupbox>
                 <groupbox mold="3d">
-                    <caption sclass="folder" label="Dados do Individuo" />
+                    <caption sclass="folder" label="{label.dadosindividuo}" />
 
                     <grid>
-                        <columns>
-                            <column width="120px" />
-                            <column  />
-                            <column width="120px" />
-                            <column  />
+                        <columns sizable="true">
+                            <column hflex="1" vflex="1" />
                         </columns>
                         <rows>
                             <row>
-                                <label value="${labels.account}" width="150px" />
-                                <hlayout>
-                                    <textbox disabled="true" value=""
-                                             width="150px" tabindex="1" />
-                                </hlayout>
-                                <label value="${labels.accountname}" width="150px" />
-                                <hlayout>
-                                    <textbox disabled="true" value=""
-                                             width="150px" tabindex="1" />
-                                </hlayout>
-                            </row>
-                            <row>
-                                <label value="${labels.legalentitytype}" width="150px" />
-                                <hlayout>
-                                    <combobox id="cmbColor2" width="150px">
-                                    </combobox>
-                                </hlayout>
-                                <label value="${labels.nuit}" width="150px" />
-                                <hlayout>
-                                    <textbox value=""
-                                             width="150px" tabindex="1" />
-                                </hlayout>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.clientname}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <textbox disabled="true" value="" hflex="1" id="idnrconta" width="200px" constraint=" no Empty: Preenche o campo!"/>
+                                </div>
                             </row>
                         </rows>
                     </grid>
