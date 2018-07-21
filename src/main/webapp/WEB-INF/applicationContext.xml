@@ -45,7 +45,7 @@
     <bean id="sessionFactory"
           class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="c3p0DataSource" />
-        <property name="packagesToScan" value="esira.domain" />
+        <property name="packagesToScan" value="municipio.domain" />
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
@@ -75,12 +75,12 @@
     separated -->
 
     <context:annotation-config />
-    <context:component-scan base-package="esira"/>
+    <context:component-scan base-package="municipio"/>
 
 
     <tx:annotation-driven transaction-manager="transactionManager" />
 
 
-    <bean id="CRUDService" class="esira.service.CRUDServiceImpl" />
+    <bean id="CRUDService" class="municipio.service.CRUDServiceImpl" />
 
 </beans> 
