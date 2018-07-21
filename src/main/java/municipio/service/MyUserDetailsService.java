@@ -45,8 +45,7 @@ public class MyUserDetailsService implements UserDetailsService {
             // Or use JDBC to access your database
             // DbUser is our custom domain user. This is not the same as
             // Spring's User
-            dbUser = CRUDService.GetUniqueEntityByNamedQuery(
-                    "Users.findByUtilizador", username);
+            dbUser = CRUDService.findEntByJPQueryT("SELECT u FROM User u WHERE u.utilizador = '" + username + "'", null);
             //  dbUser.getIdGrupo().
             //   for (esira.domain.Item i : dbUser.getIdGrupo().getItemList()) {
            // UserAutentic.setUser(dbUser.getUtilizador());
@@ -59,7 +58,7 @@ public class MyUserDetailsService implements UserDetailsService {
             // Here we just pass the username, password, and access level
             // getAuthorities() will translate the access level to the correctdbUser.getIdGrupo().getItemList().get(0).getCategoria().getIdCategoria()
             // role type
-            
+
             user = new User(dbUser.getUtilizador(), dbUser.getPasword()
                     .toLowerCase(), true, true, true, true,
                     getAuthorities(dbUser.getUtilizador()));
