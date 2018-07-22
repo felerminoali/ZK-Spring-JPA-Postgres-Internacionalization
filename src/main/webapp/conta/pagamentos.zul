@@ -88,6 +88,46 @@
                                     <textbox disabled="true" value="" hflex="1" id="" width="200px" constraint=" no Empty: Preenche o campo!"/>
                                 </div>
                             </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.birthdate}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <datebox id="db1" cols="12" format="short" onCreate="self.value = new Date()" locale="de" />
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.typeofdocument}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <combobox hflex="1" id="cmbTypeofdocument" width="200px" constraint=" no Empty: Seleccione um item!">
+                                            <comboitem label="${each.descricao}"/>
+                                        </combobox>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.otherdocument}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
+                                    </div>
+                                </div>
+                            </row>
+                            <row>
+                                <div sclass="description-area" height="100%">
+                                    <label value="${labels.documentid}"/>
+                                </div>
+                                <div sclass="description-area" height="100%">
+                                    <div sclass="description-area" height="100%">
+                                        <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
+                                    </div>
+                                </div>
+                            </row>
                         </rows>
                     </grid>
                 </groupbox>
