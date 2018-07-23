@@ -31,14 +31,14 @@
 		<!-- for a error message by a failure. -->
 		<!-- Further the page after a successfully login. -->
 		<!-- ====================================================== -->
-		<!--<form-login login-page="/login.zul"-->
-			<!--authentication-failure-url="/logint.zul?login_error=1"-->
-			<!--default-target-url="/index.zul" always-use-default-target="true" />-->
-                <!--<intercept-url pattern="/timeout.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />-->
-		<!--<intercept-url pattern="/login.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />-->
-                <!--<intercept-url pattern="/webresources/*" access="IS_AUTHENTICATED_ANONYMOUSLY" />-->
-               <!--&lt;!&ndash; <intercept-url pattern="/visitante/visitante.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />&ndash;&gt;-->
-		<!--<intercept-url pattern="/*.zul" access="IS_AUTHENTICATED_REMEMBERED" />-->
+		<form-login login-page="/login.zul"
+			authentication-failure-url="/login.zul?login_error=1"
+			default-target-url="/index.zul" always-use-default-target="true" />
+                <intercept-url pattern="/timeout.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />
+		<intercept-url pattern="/login.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />
+                <intercept-url pattern="/webresources/*" access="IS_AUTHENTICATED_ANONYMOUSLY" />
+               <!-- <intercept-url pattern="/visitante/visitante.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />-->
+		<intercept-url pattern="/*.zul" access="IS_AUTHENTICATED_REMEMBERED" />
 	</http>
 
 	<authentication-manager>
