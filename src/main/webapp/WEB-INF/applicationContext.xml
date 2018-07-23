@@ -12,9 +12,9 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="jdbc:postgresql://localhost:5433/fecn1" />
-        <property name="username" value="postgres" />
-        <property name="password" value="root" />
+        <property name="url" value="jdbc:postgresql://ec2-54-83-33-213.compute-1.amazonaws.com:5432/demj2v48ftnj5t?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
+        <property name="username" value="ucaqslvzvwulkx" />
+        <property name="password" value="7701014a92c577ed7b87b292e9ca109ccc92cd35fdd876e9691b14011a95afc9" />
     </bean>
 
     <bean id="sessionFactory"
