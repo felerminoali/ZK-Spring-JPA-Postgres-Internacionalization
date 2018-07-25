@@ -90,8 +90,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="41" column="73" lean-forward="true" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+            <state relative-caret-position="52">
+              <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -201,7 +201,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="370" />
     <option name="y" value="171" />
     <option name="width" value="683" />
@@ -341,16 +341,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532366150418</updated>
       <workItem from="1532366235043" duration="6405000" />
-      <workItem from="1532527611739" duration="9237000" />
+      <workItem from="1532527611739" duration="9579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15642000" />
+    <option name="totallyTimeSpent" value="15984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -652,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="41" column="73" lean-forward="true" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+        <state relative-caret-position="52">
+          <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
         </state>
       </provider>
     </entry>
