@@ -2,10 +2,10 @@
 <?link rel="stylesheet" type="text/css" href="/css/style.css"?>
 <zk>
     <div>
+        <toolbar id="tb" height="30px" align="start" >
+            <toolbarbutton image="img/icons/45.png"/>
+        </toolbar>
         <panel>
-            <toolbar id="tb" height="30px" align="start">
-                <toolbarbutton image="img/icons/45.png"/>
-            </toolbar>
             <panelchildren>
                 <groupbox mold="3d">
                     <attribute name="onOpen">
@@ -230,6 +230,5 @@
                 </groupbox>
             </panelchildren>
         </panel>
-        <button sclass="button" label="salvar"/>
     </div>
 </zk>
