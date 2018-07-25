@@ -33,7 +33,8 @@
                                                                 <label value="${labels.account}"/>
                                                             </div>
                                                             <div sclass="description-area" height="100%">
-                                                                <textbox disabled="true" value="" hflex="1" id="idnrconta"
+                                                                <textbox disabled="true" value="" hflex="1"
+                                                                         id="idnrconta"
                                                                          width="200px"
                                                                          constraint=" no Empty: Preenche o campo!"/>
                                                             </div>
@@ -45,7 +46,8 @@
                                                                 <label value="${labels.accountname}"/>
                                                             </div>
                                                             <div sclass="description-area" height="100%">
-                                                                <textbox disabled="true" value="" hflex="1" id="idnomeconta"
+                                                                <textbox disabled="true" value="" hflex="1"
+                                                                         id="idnomeconta"
                                                                          width="200px"
                                                                          constraint=" no Empty: Preenche o campo!"/>
                                                             </div>
@@ -131,7 +133,8 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <combobox hflex="1" id="cmbTypeofdocument" width="200px"
+                                                                    <combobox hflex="1" id="cmbTypeofdocument"
+                                                                              width="200px"
                                                                               constraint=" no Empty: ${labels.selectone}">
                                                                         <comboitem label="${each.descricao}"/>
                                                                     </combobox>
@@ -172,7 +175,8 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <combobox hflex="1" id="cmbCountryissued" width="200px"
+                                                                    <combobox hflex="1" id="cmbCountryissued"
+                                                                              width="200px"
                                                                               constraint=" no Empty: ${labels.selectone}">
                                                                         <comboitem label="${each.descricao}"/>
                                                                     </combobox>
@@ -187,7 +191,8 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <combobox hflex="1" id="cmbNationality" width="200px"
+                                                                    <combobox hflex="1" id="cmbNationality"
+                                                                              width="200px"
                                                                               constraint=" no Empty: ${labels.selectone}">
                                                                         <comboitem label="${each.descricao}"/>
                                                                     </combobox>
@@ -202,7 +207,8 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <combobox hflex="1" id="cmbCitizenship" width="200px"
+                                                                    <combobox hflex="1" id="cmbCitizenship"
+                                                                              width="200px"
                                                                               constraint=" no Empty: ${labels.selectone}">
                                                                         <comboitem label="${each.descricao}"/>
                                                                     </combobox>
@@ -217,7 +223,8 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <combobox hflex="1" id="cmbMaritalstatus" width="200px"
+                                                                    <combobox hflex="1" id="cmbMaritalstatus"
+                                                                              width="200px"
                                                                               constraint=" no Empty: ${labels.selectone}">
                                                                         <comboitem label="${each.descricao}"/>
                                                                     </combobox>
@@ -247,32 +254,23 @@
                                         <groupbox mold="3d">
                                             <caption sclass="folder" label="${labels.clientcontacts}"/>
                                             <grid>
-                                                <panel>
-                                                    <panelchildren>
-                                                        <groupbox>
-                                                            <div>
-                                                                <grid mold="paging" pageSize="6">
-                                                                    <columns>
-                                                                        <column hflex="1" label="Order #" align="left" />
-                                                                        <column hflex="2" label="Item Purchased" align="center" />
-                                                                        <column hflex="2" label="Purchased Time" align="center" />
-                                                                        <column hflex="1" label="Paid" align="center" />
-                                                                    </columns>
-                                                                    <rows>
-                                                                        <row>
-                                                                            <label>1</label>
-                                                                            <label>Apple</label>
-                                                                            <label>00:00:00</label>
-                                                                            <label>Yes</label>
-                                                                        </row>
-                                                                    </rows>
-                                                                </grid>
-                                                            </div>
-                                                        </groupbox>
-                                                    </panelchildren>
-                                                </panel>
 
-
+                                                <grid mold="paging" pageSize="6">
+                                                    <columns>
+                                                        <column hflex="1" label="Order #" align="left"/>
+                                                        <column hflex="2" label="Item Purchased" align="center"/>
+                                                        <column hflex="2" label="Purchased Time" align="center"/>
+                                                        <column hflex="1" label="Paid" align="center"/>
+                                                    </columns>
+                                                    <rows>
+                                                        <row>
+                                                            <label>1</label>
+                                                            <label>Apple</label>
+                                                            <label>00:00:00</label>
+                                                            <label>Yes</label>
+                                                        </row>
+                                                    </rows>
+                                                </grid>
 
                                             </grid>
                                         </groupbox>
