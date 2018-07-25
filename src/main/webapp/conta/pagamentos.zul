@@ -9,8 +9,8 @@
                 </toolbar>
             </row>
             <row>
-                <div>
-                    <panel style="max-height:300px; overflow-x:hidden;overflow-y:auto">
+
+                    <panel style="max-height:100%; overflow-x:hidden;overflow-y:auto">
                         <panelchildren>
                             <vlayout>
                                 <groupbox mold="3d">
@@ -26,7 +26,7 @@
                                                         <label value="${labels.account}"/>
                                                     </div>
                                                     <div sclass="description-area" height="100%">
-                                                        <textbox disabled="true" value="" hflex="1" id="idnrconta"
+                                                        <textbox value="" hflex="1" id="idnrconta"
                                                                  width="200px"
                                                                  constraint=" no Empty: Preenche o campo!"/>
                                                     </div>
@@ -38,7 +38,7 @@
                                                         <label value="${labels.accountname}"/>
                                                     </div>
                                                     <div sclass="description-area" height="100%">
-                                                        <textbox disabled="true" value="" hflex="1" id="idnomeconta"
+                                                        <textbox value="" hflex="1" id="idnomeconta"
                                                                  width="200px"
                                                                  constraint=" no Empty: Preenche o campo!"/>
                                                     </div>
@@ -240,7 +240,7 @@
                             </vlayout>
                         </panelchildren>
                     </panel>
-                </div>
+
             </row>
         </rows>
     </grid>
