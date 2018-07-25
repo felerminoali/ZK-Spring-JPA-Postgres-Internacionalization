@@ -10,13 +10,10 @@
             </row>
             <row>
                 <div>
-                    <panel style="height:300px; overflow-x:hidden;overflow-y:auto">
+                    <panel style="max-height:300px; overflow-x:hidden;overflow-y:auto">
                         <panelchildren>
                             <vlayout>
                                 <groupbox mold="3d">
-                                    <attribute name="onOpen">
-                                        <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
-                                    </attribute>
                                     <caption sclass="folder" label="${labels.clientinfo}"/>
                                     <grid>
                                         <columns sizable="true">
