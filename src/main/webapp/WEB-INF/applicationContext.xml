@@ -48,4 +48,6 @@
     <context:component-scan base-package="municipio"/>
     <tx:annotation-driven transaction-manager="transactionManager" />
     <bean id="CRUDService" class="municipio.service.CRUDServiceImpl" />
+
+    <import resource="spring-security.xml"/>
 </beans> 
