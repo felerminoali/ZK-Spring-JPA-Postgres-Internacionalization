@@ -29,8 +29,8 @@
                 <prop key="hibernate.use_sql_comments">true</prop>
                 <prop key="hibernate.zeroDateTimeBehavior">convertToNull</prop>
                 <prop key="hibernate.multiTenancy">DATABASE</prop>
-                <prop key="hibernate.tenant_identifier_resolver">esira.hibernate.TenantIdResolver</prop>
-                <prop key="hibernate.multi_tenant_connection_provider">esira.hibernate.MultiTenantConnectionProviderImpl</prop>
+                <prop key="hibernate.tenant_identifier_resolver">municipio.hibernate.TenantIdResolver</prop>
+                <prop key="hibernate.multi_tenant_connection_provider">municipio.hibernate.MultiTenantConnectionProviderImpl</prop>
                 <prop key="hibernate.c3p0.privilegeSpawnedThreads">true</prop><!--adicionado com multitenant para destruir threads de pool perdidos-->
                 <prop key="hibernate.c3p0.contextClassLoaderSource">library</prop>
             </props>

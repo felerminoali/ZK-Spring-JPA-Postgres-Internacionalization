@@ -29,6 +29,13 @@ Copyright (C) 2004 Potix Corporation. All Rights Reserved.
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
+
+
+	<!-- For using web scoped bean -->
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
 	<!-- A servlet filter capturing every user requests and sending them to
 		the configured security filters to make sure access is authorized. -->
 	<filter>
