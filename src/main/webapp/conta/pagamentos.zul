@@ -10,8 +10,7 @@
             </row>
             <row>
                 <div>
-
-                    <panel>
+                    <panel style="height:100%; overflow-x:hidden;overflow-y:auto">
                         <panelchildren>
                             <vlayout>
                                 <groupbox mold="3d">
@@ -19,7 +18,6 @@
                                         <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
                                     </attribute>
                                     <caption sclass="folder" label="${labels.clientinfo}"/>
-
                                     <grid>
                                         <columns sizable="true">
                                             <column hflex="1" vflex="1"/>
