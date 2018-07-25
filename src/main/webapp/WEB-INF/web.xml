@@ -25,35 +25,35 @@ Copyright (C) 2004 Potix Corporation. All Rights Reserved.
 	</context-param>
 
 	<!-- Loads the Spring web application context -->
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
+	<!--<listener>-->
+		<!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+	<!--</listener>-->
 
 
 	<!-- For using web scoped bean -->
-	<listener>
-		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
-	</listener>
+	<!--<listener>-->
+		<!--<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>-->
+	<!--</listener>-->
 
 	<!-- A servlet filter capturing every user requests and sending them to
 		the configured security filters to make sure access is authorized. -->
-	<filter>
-		<filter-name>springSecurityFilterChain</filter-name>
-		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
-	</filter>
+	<!--<filter>-->
+		<!--<filter-name>springSecurityFilterChain</filter-name>-->
+		<!--<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
+	<!--</filter>-->
 
-	<filter-mapping>
-		<filter-name>springSecurityFilterChain</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-	<filter>
-		<filter-name>OpenSessionInViewFilter</filter-name>
-		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>OpenSessionInViewFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+	<!--<filter-mapping>-->
+		<!--<filter-name>springSecurityFilterChain</filter-name>-->
+		<!--<url-pattern>/*</url-pattern>-->
+	<!--</filter-mapping>-->
+	<!--<filter>-->
+		<!--<filter-name>OpenSessionInViewFilter</filter-name>-->
+		<!--<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>-->
+	<!--</filter>-->
+	<!--<filter-mapping>-->
+		<!--<filter-name>OpenSessionInViewFilter</filter-name>-->
+		<!--<url-pattern>/*</url-pattern>-->
+	<!--</filter-mapping>-->
 	<!-- //// -->
 	<!-- ZK -->
 	<listener>
