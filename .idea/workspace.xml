@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="296">
+              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -55,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="10" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="296">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,8 +93,12 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="154">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="n#groupbox#0;n#vlayout#0;n#panelchildren#0;n#panel#0;n#div#0;n#row#1;n#rows#0;n#grid#0;n#zk#0;n#!!top" />
+                <element signature="n#groupbox#1;n#vlayout#0;n#panelchildren#0;n#panel#0;n#div#0;n#row#1;n#rows#0;n#grid#0;n#zk#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,13 +169,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/system.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.zul" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" />
         <option value="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" />
       </list>
@@ -342,15 +348,16 @@
       <option name="presentableId" value="Default" />
       <updated>1532366150418</updated>
       <workItem from="1532366235043" duration="6405000" />
-      <workItem from="1532527611739" duration="9940000" />
+      <workItem from="1532527611739" duration="10935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16345000" />
+    <option name="totallyTimeSpent" value="17340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -371,7 +378,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62564105" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62564105" />
       <window_info id="Persistence" order="2" side_tool="true" weight="0.3295107" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" weight="0.26299694" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -606,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -635,14 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="10" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.zul">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -650,10 +641,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="n#groupbox#0;n#vlayout#0;n#panelchildren#0;n#panel#0;n#div#0;n#row#1;n#rows#0;n#grid#0;n#zk#0;n#!!top" />
+            <element signature="n#groupbox#1;n#vlayout#0;n#panelchildren#0;n#panel#0;n#div#0;n#row#1;n#rows#0;n#grid#0;n#zk#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
