@@ -360,7 +360,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
-                            <finalName>zksandbox${packname}</finalName>
+                            <!--<finalName>zksandbox${packname}</finalName>-->
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptors>
                                 <descriptor>assembly/demo.xml</descriptor>
