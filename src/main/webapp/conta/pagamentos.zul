@@ -6,6 +6,8 @@
             <row>
                 <toolbar id="tb" height="30px" align="start">
                     <toolbarbutton image="img/icons/45.png"/>
+                    <toolbarbutton image="img/icons/45.png"/>
+                    <toolbarbutton image="img/icons/45.png"/>
                 </toolbar>
             </row>
             <row>
