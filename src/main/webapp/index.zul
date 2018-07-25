@@ -56,7 +56,7 @@ Copyright (C) 2008 Potix Corporation. All Rights Reserved.
 			</panelchildren>
 		</panel>
 	</west>
-	<center autoscroll="true" flex="true">
+	<center flex="true">
 		<include style="padding:3px;" id="xcontents" />
 	</center>
 </borderlayout>
