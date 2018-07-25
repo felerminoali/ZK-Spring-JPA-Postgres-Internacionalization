@@ -10,7 +10,7 @@
             </row>
             <row>
                 <div>
-                    <panel style="height:100%; overflow-x:hidden;overflow-y:auto">
+                    <panel style="height:300px; overflow-x:hidden;overflow-y:auto">
                         <panelchildren>
                             <vlayout>
                                 <groupbox mold="3d">
