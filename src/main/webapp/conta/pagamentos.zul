@@ -247,7 +247,7 @@
                                         <groupbox mold="3d">
                                             <caption sclass="folder" label="${labels.clientcontacts}"/>
                                             <grid>
-                                                <window id="w1">
+
                                                     <groupbox>
                                                         <div>
                                                             <grid mold="paging" pageSize="6">
@@ -268,7 +268,7 @@
                                                             </grid>
                                                         </div>
                                                     </groupbox>
-                                                </window>
+
                                             </grid>
                                         </groupbox>
                                     </vlayout>
