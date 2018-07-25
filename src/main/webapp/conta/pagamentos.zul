@@ -2,232 +2,245 @@
 <?link rel="stylesheet" type="text/css" href="/css/style.css"?>
 <zk>
     <div>
-        <toolbar id="tb" height="30px" align="start" >
-            <toolbarbutton image="img/icons/45.png"/>
-        </toolbar>
+
         <panel>
+
             <panelchildren>
-                <groupbox mold="3d">
-                    <attribute name="onOpen">
-                        <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
-                    </attribute>
-                    <caption sclass="folder" label="${labels.clientinfo}"/>
+                <hlayout>
+                    <toolbar id="tb" height="30px" align="start">
+                        <toolbarbutton image="img/icons/45.png"/>
+                    </toolbar>
+                </hlayout>
 
-                    <grid>
-                        <columns sizable="true">
-                            <column hflex="1" vflex="1"/>
-                        </columns>
-                        <rows>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.account}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <textbox disabled="true" value="" hflex="1" id="idnrconta" width="200px"
-                                                 constraint=" no Empty: Preenche o campo!"/>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.accountname}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <textbox disabled="true" value="" hflex="1" id="idnomeconta" width="200px"
-                                                 constraint=" no Empty: Preenche o campo!"/>
-                                    </div>
-                                </hlayout>
-                            </row>
+                <panel>
+                    <panelchildren>
+                        <groupbox mold="3d">
+                            <attribute name="onOpen">
+                                <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
+                            </attribute>
+                            <caption sclass="folder" label="${labels.clientinfo}"/>
 
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.legalentitytype}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <combobox hflex="1" id="cmbColor" width="200px"
-                                                  constraint=" no Empty: ${labels.selectone}">
-                                            <comboitem label="${each.descricao}"/>
-                                        </combobox>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.nuit}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <textbox value="" hflex="1" id="" width="200px"
-                                                 constraint=" no Empty: Preenche o campo!"/>
-                                    </div>
-                                </hlayout>
-                            </row>
-                        </rows>
-                    </grid>
-                </groupbox>
-                <groupbox mold="3d">
-                    <caption sclass="folder" label="${labels.clientdata}"/>
+                            <grid>
+                                <columns sizable="true">
+                                    <column hflex="1" vflex="1"/>
+                                </columns>
+                                <rows>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.account}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <textbox disabled="true" value="" hflex="1" id="idnrconta" width="200px"
+                                                         constraint=" no Empty: Preenche o campo!"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.accountname}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <textbox disabled="true" value="" hflex="1" id="idnomeconta"
+                                                         width="200px"
+                                                         constraint=" no Empty: Preenche o campo!"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
 
-                    <grid>
-                        <columns sizable="true">
-                            <column hflex="1" vflex="1"/>
-                        </columns>
-                        <rows>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.clientname}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <textbox disabled="true" value="" hflex="1" id="txtClientname" width="200px"
-                                                 constraint=" no Empty: Preenche o campo!"/>
-                                    </div>
-                                </hlayout>
-                            </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.legalentitytype}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <combobox hflex="1" id="cmbColor" width="200px"
+                                                          constraint=" no Empty: ${labels.selectone}">
+                                                    <comboitem label="${each.descricao}"/>
+                                                </combobox>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.nuit}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <textbox value="" hflex="1" id="" width="200px"
+                                                         constraint=" no Empty: Preenche o campo!"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                </rows>
+                            </grid>
+                        </groupbox>
+                        <groupbox mold="3d">
+                            <caption sclass="folder" label="${labels.clientdata}"/>
 
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.surname}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <textbox disabled="true" value="" hflex="1" id="txtSurname" width="200px"
-                                                 constraint=" no Empty: Preenche o campo!"/>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.birthdate}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <datebox id="db1" cols="12" format="short" onCreate="self.value = new Date()"
-                                                 locale="de"/>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.typeofdocument}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbTypeofdocument" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.otherdocument}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.documentid}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.countryissued}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbCountryissued" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.nationality}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbNationality" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.citizenship}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbCitizenship" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.maritalstatus}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbMaritalstatus" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
-                            <row>
-                                <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                    <div sclass="description-area" height="100%">
-                                        <label value="${labels.sex}"/>
-                                    </div>
-                                    <div sclass="description-area" height="100%">
-                                        <div sclass="description-area" height="100%">
-                                            <combobox hflex="1" id="cmbSex" width="200px"
-                                                      constraint=" no Empty: ${labels.selectone}">
-                                                <comboitem label="${each.descricao}"/>
-                                            </combobox>
-                                        </div>
-                                    </div>
-                                </hlayout>
-                            </row>
+                            <grid>
+                                <columns sizable="true">
+                                    <column hflex="1" vflex="1"/>
+                                </columns>
+                                <rows>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.clientname}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <textbox disabled="true" value="" hflex="1" id="txtClientname"
+                                                         width="200px"
+                                                         constraint=" no Empty: Preenche o campo!"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
 
-                        </rows>
-                    </grid>
-                </groupbox>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.surname}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <textbox disabled="true" value="" hflex="1" id="txtSurname"
+                                                         width="200px"
+                                                         constraint=" no Empty: Preenche o campo!"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.birthdate}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <datebox id="db1" cols="12" format="short"
+                                                         onCreate="self.value = new Date()"
+                                                         locale="de"/>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.typeofdocument}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbTypeofdocument" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.otherdocument}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.documentid}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <textbox disabled="true" value="" hflex="1" id="" width="200px"/>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.countryissued}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbCountryissued" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.nationality}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbNationality" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.citizenship}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbCitizenship" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.maritalstatus}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbMaritalstatus" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+                                    <row>
+                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                            <div sclass="description-area" height="100%">
+                                                <label value="${labels.sex}"/>
+                                            </div>
+                                            <div sclass="description-area" height="100%">
+                                                <div sclass="description-area" height="100%">
+                                                    <combobox hflex="1" id="cmbSex" width="200px"
+                                                              constraint=" no Empty: ${labels.selectone}">
+                                                        <comboitem label="${each.descricao}"/>
+                                                    </combobox>
+                                                </div>
+                                            </div>
+                                        </hlayout>
+                                    </row>
+
+                                </rows>
+                            </grid>
+                        </groupbox>
+                    </panelchildren>
+                </panel>
             </panelchildren>
         </panel>
     </div>

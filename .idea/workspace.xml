@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,8 +91,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -192,7 +193,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="370" />
     <option name="y" value="171" />
     <option name="width" value="683" />
@@ -332,15 +333,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532366150418</updated>
       <workItem from="1532366235043" duration="6405000" />
-      <workItem from="1532527611739" duration="6774000" />
+      <workItem from="1532527611739" duration="7386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13179000" />
+    <option name="totallyTimeSpent" value="13791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -636,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
