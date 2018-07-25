@@ -14,6 +14,7 @@
 
                 <panel>
                     <panelchildren>
+                        <vlayout>
                         <groupbox mold="3d">
                             <attribute name="onOpen">
                                 <![CDATA[arrow.setSclass("open-" + self.isOpen());]]>
@@ -239,6 +240,7 @@
                                 </rows>
                             </grid>
                         </groupbox>
+                        </vlayout>
                     </panelchildren>
                 </panel>
             </panelchildren>
