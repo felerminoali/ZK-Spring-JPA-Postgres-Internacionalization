@@ -3,7 +3,7 @@
 <zk>
     <tabbox>
         <tabs>
-            <tab label="${labels.clientcontacts}"></tab>
+            <tab label="${labels.clientinfo}" closable="true"></tab>
         </tabs>
         <tabpanels>
             <tabpanel>
@@ -246,7 +246,30 @@
                                         </groupbox>
                                         <groupbox mold="3d">
                                             <caption sclass="folder" label="${labels.clientcontacts}"/>
-                                            <grid></grid>
+                                            <grid>
+                                                <window>
+                                                    <groupbox>
+                                                        <div>
+                                                            <grid mold="paging" pageSize="6">
+                                                                <columns>
+                                                                    <column hflex="1" label="Order #" align="left" />
+                                                                    <column hflex="2" label="Item Purchased" align="center" />
+                                                                    <column hflex="2" label="Purchased Time" align="center" />
+                                                                    <column hflex="1" label="Paid" align="center" />
+                                                                </columns>
+                                                               <rows>
+                                                                    <row>
+                                                                       <label>1</label>
+                                                                        <label>Apple</label>
+                                                                        <label>00:00:00</label>
+                                                                        <label>Yes</label>
+                                                                    </row>
+                                                               </rows>
+                                                            </grid>
+                                                        </div>
+                                                    </groupbox>
+                                                </window>
+                                            </grid>
                                         </groupbox>
                                     </vlayout>
                                 </panelchildren>
