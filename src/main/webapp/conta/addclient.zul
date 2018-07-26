@@ -251,7 +251,7 @@
                                                 </rows>
                                             </grid>
                                         </groupbox>
-                                        <separator bar="true" height="10px"/>
+
                                         <tabbox visible="true">
                                             <tabs>
                                                 <tab label="${labels.clientcontacts}"/>
