@@ -1,19 +1,16 @@
-package municipio.model;
+package municipio.domain;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
+import java.io.Serializable;
 import java.util.Objects;
 
-@Entity
-@IdClass(RoleitemPK.class)
-public class Roleitem {
+public class RoleitemPK implements Serializable {
     private int idrole;
     private String item;
 
-    @Id
     @Column(name = "idrole", nullable = false)
+    @Id
     public int getIdrole() {
         return idrole;
     }
@@ -22,8 +19,8 @@ public class Roleitem {
         this.idrole = idrole;
     }
 
-    @Id
     @Column(name = "item", nullable = false, length = 255)
+    @Id
     public String getItem() {
         return item;
     }
@@ -36,9 +33,9 @@ public class Roleitem {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Roleitem roleitem = (Roleitem) o;
-        return idrole == roleitem.idrole &&
-                Objects.equals(item, roleitem.item);
+        RoleitemPK that = (RoleitemPK) o;
+        return idrole == that.idrole &&
+                Objects.equals(item, that.item);
     }
 
     @Override

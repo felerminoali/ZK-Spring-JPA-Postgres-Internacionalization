@@ -25,7 +25,7 @@ import org.zkoss.zul.AbstractTreeModel;
 import org.zkoss.zul.event.TreeDataEvent;
 
 /** 
- * A simple implementation of binary tree model by an arraylist
+ * A simple implementation of binary tree domain by an arraylist
  *
  * @author Jeff Liu
  */

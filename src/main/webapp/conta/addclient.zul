@@ -3,7 +3,7 @@
 <zk>
     <tabbox>
         <tabs>
-            <tab label="${labels.clientinfo}" closable="true"></tab>
+            <tab label="${labels.clientinfo}"></tab>
         </tabs>
         <tabpanels>
             <tabpanel>
@@ -17,7 +17,7 @@
                             </toolbar>
                         </row>
                         <row>
-                            <panel style="max-height:450px; overflow-x:hidden;overflow-y:auto">
+                            <panel style="max-height:425px; overflow-x:hidden;overflow-y:auto">
                                 <panelchildren>
                                     <vlayout>
                                         <groupbox mold="3d">
@@ -251,152 +251,237 @@
                                                 </rows>
                                             </grid>
                                         </groupbox>
-                                        <groupbox mold="3d">
-                                            <caption sclass="folder" label="${labels.clientcontacts}"/>
+                                        <separator bar="true" height="10px"/>
+                                        <tabbox visible="true">
+                                            <tabs>
+                                                <tab label="${labels.clientcontacts}"/>
+                                                <tab label="${labels.address}"/>
+                                                <tab label="${labels.properties}"/>
+                                                <tab label="${labels.vehicle}"/>
+                                                <tab label="${labels.economicactivity}"/>
+                                                <tab label="${labels.advertisement}"/>
+                                                <tab label="${labels.accouting}"/>
+                                                <tab label="${labels.certifcates}"/>
+                                                <tab label="${labels.inquiries}"/>
+                                            </tabs>
+                                            <tabpanels>
+                                                <tabpanel>
+                                                    <grid mold="paging" pageSize="3">
+                                                        <columns>
+                                                            <column hflex="1" label="${labels.prefcontact}" align="left"/>
+                                                            <column hflex="2" label="${labels.addlcontact}" align="center"/>
+                                                            <column hflex="2" label="${labels.typeofcontact}" align="center"/>
+                                                            <column hflex="1" label="${labels.clientname}" align="center"/>
+                                                            <column hflex="1" label="${labels.surname}" align="center"/>
+                                                        </columns>
+                                                        <rows>
+                                                            <row>
+                                                                <label>825407883</label>
+                                                                <label>846689637</label>
+                                                                <label>Secundario</label>
+                                                                <label>Elizete</label>
+                                                                <label>Joao</label>
+                                                            </row>
+                                                        </rows>
+                                                    </grid>
 
-                                            <grid mold="paging" pageSize="3">
-                                                <columns>
-                                                    <column hflex="1" label="Order #" align="left"/>
-                                                    <column hflex="2" label="Item Purchased" align="center"/>
-                                                    <column hflex="2" label="Purchased Time" align="center"/>
-                                                    <column hflex="1" label="Paid" align="center"/>
-                                                </columns>
-                                                <rows>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                    <row>
-                                                        <label>1</label>
-                                                        <label>Apple</label>
-                                                        <label>00:00:00</label>
-                                                        <label>Yes</label>
-                                                    </row>
-                                                </rows>
-                                            </grid>
+                                                    <toolbar id="" height="30px" align="start">
+                                                        <button>${labels.btnnew}</button>
+                                                        <button>${labels.btnsave}</button>
+                                                        <button>${labels.btndetete}</button>
+                                                    </toolbar>
 
-                                            <toolbar id="" height="30px" align="start">
-                                                <button>${labels.btnnew}</button>
-                                                <button>${labels.btnsave}</button>
-                                                <button>${labels.btndetete}</button>
-                                            </toolbar>
+                                                    <grid>
+                                                        <columns sizable="true">
+                                                            <column hflex="1" vflex="1"/>
+                                                            <column hflex="1" vflex="1"/>
+                                                        </columns>
+                                                        <rows>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.clientname}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <textbox value="" hflex="1" id=""
+                                                                                 width="200px"/>
+                                                                    </div>
+                                                                </hlayout>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.surname}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <textbox value="" hflex="1" id=""
+                                                                                 width="200px"/>
+                                                                    </div>
+                                                                </hlayout>
+                                                            </row>
 
-                                            <grid>
-                                                <columns sizable="true">
-                                                    <column hflex="1" vflex="1"/>
-                                                </columns>
-                                                <rows>
-                                                    <row>
-                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                            <div sclass="description-area" height="100%">
-                                                                <label value="${labels.country}"/>
-                                                            </div>
-                                                            <div sclass="description-area" height="100%">
-                                                                <combobox hflex="1" id="cmbCountry" width="200px"
-                                                                          constraint=" no Empty: ${labels.selectone}">
-                                                                    <comboitem label="${each.descricao}"/>
-                                                                </combobox>
-                                                            </div>
-                                                        </hlayout>
-                                                    </row>
-                                                    <row>
-                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                            <div sclass="description-area" height="100%">
-                                                                <label value="${labels.county}"/>
-                                                            </div>
-                                                            <div sclass="description-area" height="100%">
-                                                                <combobox hflex="1" id="cmbCounty" width="200px"
-                                                                          constraint=" no Empty: ${labels.selectone}">
-                                                                    <comboitem label="${each.descricao}"/>
-                                                                </combobox>
-                                                            </div>
-                                                        </hlayout>
-                                                    </row>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.typeofcontact}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbTypeofcontact" width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
 
-                                                    <row>
-                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                            <div sclass="description-area" height="100%">
-                                                                <label value="${labels.accountname}"/>
-                                                            </div>
-                                                            <div sclass="description-area" height="100%">
-                                                                <combobox hflex="1" id="cmbAccountname" width="200px"
-                                                                          constraint=" no Empty: ${labels.selectone}">
-                                                                    <comboitem label="${each.descricao}"/>
-                                                                </combobox>
-                                                            </div>
-                                                        </hlayout>
-                                                    </row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.prefcontact}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbPrefcontact" width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
+                                                            </row>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.addcontact}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbAddlcontact" width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
 
-                                                    <row>
-                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                            <div sclass="description-area" height="100%">
-                                                                <label value="${labels.typeofaddress}"/>
-                                                            </div>
-                                                            <div sclass="description-area" height="100%">
-                                                                <combobox hflex="1" id="cmbTypeofaddress" width="200px"
-                                                                          constraint=" no Empty: ${labels.selectone}">
-                                                                    <comboitem label="${each.descricao}"/>
-                                                                </combobox>
-                                                            </div>
-                                                        </hlayout>
-                                                    </row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.tel}"/>
+                                                                    </div>
+                                                                    <textbox value="" hflex="1" id=""
+                                                                             width="200px"/>
+                                                                </hlayout>
+                                                            </row>
 
-                                                    <row>
-                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                            <div sclass="description-area" height="100%">
-                                                                <label value="${labels.addresss}"/>
-                                                            </div>
-                                                            <div sclass="description-area" height="100%">
-                                                                <textbox value="" hflex="1" id=""
-                                                                         width="200px"/>
-                                                            </div>
-                                                        </hlayout>
-                                                    </row>
-                                                </rows>
-                                            </grid>
-                                        </groupbox>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.email}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <textbox value="" hflex="1" id=""
+                                                                                 width="200px"/>
+                                                                    </div>
+                                                                </hlayout>
+
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.altcontact}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <textbox value="" hflex="1" id=""
+                                                                                 width="200px"/>
+                                                                    </div>
+                                                                </hlayout>
+
+                                                            </row>
+
+                                                        </rows>
+                                                    </grid>
+
+                                                </tabpanel>
+                                                <tabpanel>
+                                                    <grid>
+                                                        <columns sizable="true">
+                                                            <column hflex="1" vflex="1"/>
+                                                            <column hflex="1" vflex="1"/>
+                                                        </columns>
+                                                        <rows>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.country}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbCountry"
+                                                                                  width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.county}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbCounty" width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
+                                                            </row>
+
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.accountname}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbAccountname"
+                                                                                  width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
+
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.typeofaddress}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <combobox hflex="1" id="cmbTypeofaddress"
+                                                                                  width="200px"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each.descricao}"/>
+                                                                        </combobox>
+                                                                    </div>
+                                                                </hlayout>
+                                                            </row>
+                                                            <row>
+                                                                <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <label value="${labels.address}"/>
+                                                                    </div>
+                                                                    <div sclass="description-area" height="100%">
+                                                                        <textbox value="" hflex="1" id=""
+                                                                                 width="200px"/>
+                                                                    </div>
+                                                                </hlayout>
+                                                            </row>
+                                                        </rows>
+                                                    </grid>
+                                                </tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                                <tabpanel></tabpanel>
+                                            </tabpanels>
+                                        </tabbox>
                                     </vlayout>
                                 </panelchildren>
                             </panel>
-
                         </row>
                     </rows>
                 </grid>
             </tabpanel>
         </tabpanels>
     </tabbox>
-
-
 </zk>

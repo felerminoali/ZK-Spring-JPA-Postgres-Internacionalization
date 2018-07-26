@@ -1,4 +1,4 @@
-package municipio.model;
+package municipio.domain;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
