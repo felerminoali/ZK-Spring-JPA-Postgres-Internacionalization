@@ -254,7 +254,7 @@
                                         <groupbox mold="3d">
                                             <caption sclass="folder" label="${labels.clientcontacts}"/>
 
-                                            <grid mold="paging" pageSize="6">
+                                            <grid mold="paging" pageSize="3">
                                                 <columns>
                                                     <column hflex="1" label="Order #" align="left"/>
                                                     <column hflex="2" label="Item Purchased" align="center"/>
@@ -306,6 +306,23 @@
                                                     </row>
                                                 </rows>
 
+                                            </grid>
+
+                                            <grid>
+                                                <columns sizable="true">
+                                                    <column hflex="1" vflex="1"/>
+                                                </columns>
+                                                <rows>
+                                                    <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                        <div sclass="description-area" height="100%">
+                                                            <label value="${labels.nuit}"/>
+                                                        </div>
+                                                        <div sclass="description-area" height="100%">
+                                                            <textbox value="" hflex="1" id="" width="200px"
+                                                                     constraint=" no Empty: Preenche o campo!"/>
+                                                        </div>
+                                                    </hlayout>
+                                                </rows>
                                             </grid>
                                         </groupbox>
                                     </vlayout>
