@@ -305,8 +305,13 @@
                                                         <label>Yes</label>
                                                     </row>
                                                 </rows>
-
                                             </grid>
+
+                                            <toolbar id="" height="30px" align="start">
+                                                <button>Novo</button>
+                                                <button>Guardar</button>
+                                                <button>Apagar</button>
+                                            </toolbar>
 
                                             <grid>
                                                 <columns sizable="true">
