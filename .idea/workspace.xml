@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,8 +90,8 @@
       <file leaf-file-name="pagamentos.zul" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="327" column="115" selection-start-line="327" selection-start-column="106" selection-end-line="327" selection-end-column="115" />
+            <state relative-caret-position="478">
+              <caret line="357" column="66" selection-start-line="357" selection-start-column="66" selection-end-line="357" selection-end-column="66" />
               <folding>
                 <element signature="n#row#0;n#rows#0;n#grid#0;n#groupbox#2;n#vlayout#0;n#panelchildren#0;n#panel#0;n#row#1;n#rows#0;n#grid#0;n#tabpanel#0;n#tabpanels#0;n#tabbox#0;n#zk#0;n#!!top" />
                 <element signature="n#row#1;n#rows#0;n#grid#0;n#groupbox#2;n#vlayout#0;n#panelchildren#0;n#panel#0;n#row#1;n#rows#0;n#grid#0;n#tabpanel#0;n#tabpanels#0;n#tabbox#0;n#zk#0;n#!!top" />
@@ -354,15 +351,16 @@
       <updated>1532366150418</updated>
       <workItem from="1532366235043" duration="6405000" />
       <workItem from="1532527611739" duration="15971000" />
-      <workItem from="1532604406457" duration="2531000" />
+      <workItem from="1532604406457" duration="2791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24907000" />
+    <option name="totallyTimeSpent" value="25167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -383,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62393165" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62393165" />
       <window_info id="Persistence" order="2" side_tool="true" weight="0.3295107" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" weight="0.26299694" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -713,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/pagamentos.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="327" column="115" selection-start-line="327" selection-start-column="106" selection-end-line="327" selection-end-column="115" />
+        <state relative-caret-position="478">
+          <caret line="357" column="66" selection-start-line="357" selection-start-column="66" selection-end-line="357" selection-end-column="66" />
           <folding>
             <element signature="n#row#0;n#rows#0;n#grid#0;n#groupbox#2;n#vlayout#0;n#panelchildren#0;n#panel#0;n#row#1;n#rows#0;n#grid#0;n#tabpanel#0;n#tabpanels#0;n#tabbox#0;n#zk#0;n#!!top" />
             <element signature="n#row#1;n#rows#0;n#grid#0;n#groupbox#2;n#vlayout#0;n#panelchildren#0;n#panel#0;n#row#1;n#rows#0;n#grid#0;n#tabpanel#0;n#tabpanels#0;n#tabbox#0;n#zk#0;n#!!top" />
