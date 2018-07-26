@@ -149,7 +149,7 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <textbox disabled="true" value="" hflex="1" id=""
+                                                                    <textbox value="" hflex="1" id=""
                                                                              width="200px"/>
                                                                 </div>
                                                             </div>
@@ -162,7 +162,7 @@
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <div sclass="description-area" height="100%">
-                                                                    <textbox disabled="true" value="" hflex="1" id=""
+                                                                    <textbox value="" hflex="1" id=""
                                                                              width="200px"/>
                                                                 </div>
                                                             </div>
@@ -308,9 +308,9 @@
                                             </grid>
 
                                             <toolbar id="" height="30px" align="start">
-                                                <button>Novo</button>
-                                                <button>Guardar</button>
-                                                <button>Apagar</button>
+                                                <button>${labels.btnnew}</button>
+                                                <button>${labels.btnsave}</button>
+                                                <button>${labels.btndetete}</button>
                                             </toolbar>
 
                                             <grid>
@@ -319,15 +319,20 @@
                                                 </columns>
                                                 <rows>
                                                     <row>
-                                                    <hlayout vflex="1" hflex="1" sclass="second-layout">
-                                                        <div sclass="description-area" height="100%">
-                                                            <label value="${labels.nuit}"/>
-                                                        </div>
-                                                        <div sclass="description-area" height="100%">
-                                                            <textbox value="" hflex="1" id="" width="200px"
-                                                                     constraint=" no Empty: Preenche o campo!"/>
-                                                        </div>
-                                                    </hlayout>
+                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                            <div sclass="description-area" height="100%">
+                                                                <label value="${labels.Country}"/>
+                                                            </div>
+                                                            <div sclass="description-area" height="100%">
+                                                                <combobox hflex="1" id="cmbCountry" width="200px"
+                                                                          constraint=" no Empty: ${labels.selectone}">
+                                                                    <comboitem label="${each.descricao}"/>
+                                                                </combobox>
+                                                            </div>
+                                                        </hlayout>
+                                                    </row>
+                                                    <row>
+
                                                     </row>
                                                 </rows>
                                             </grid>
