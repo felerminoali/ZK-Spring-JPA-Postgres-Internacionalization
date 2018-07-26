@@ -321,7 +321,7 @@
                                                     <row>
                                                         <hlayout vflex="1" hflex="1" sclass="second-layout">
                                                             <div sclass="description-area" height="100%">
-                                                                <label value="${labels.Country}"/>
+                                                                <label value="${labels.country}"/>
                                                             </div>
                                                             <div sclass="description-area" height="100%">
                                                                 <combobox hflex="1" id="cmbCountry" width="200px"
