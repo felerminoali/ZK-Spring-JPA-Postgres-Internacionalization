@@ -374,10 +374,10 @@
                                                     <row>
                                                         <hlayout vflex="1" hflex="1" sclass="second-layout">
                                                             <div sclass="description-area" height="100%">
-                                                                <label value="${labels.countyname}"/>
+                                                                <label value="${labels.typeofaddress}"/>
                                                             </div>
                                                             <div sclass="description-area" height="100%">
-                                                                <combobox hflex="1" id="cmbCountyname" width="200px"
+                                                                <combobox hflex="1" id="cmbTypeofaddress" width="200px"
                                                                           constraint=" no Empty: ${labels.selectone}">
                                                                     <comboitem label="${each.descricao}"/>
                                                                 </combobox>
@@ -395,6 +395,17 @@
                                                                           constraint=" no Empty: ${labels.selectone}">
                                                                     <comboitem label="${each.descricao}"/>
                                                                 </combobox>
+                                                            </div>
+                                                        </hlayout>
+                                                    </row>
+                                                    <row>
+                                                        <hlayout vflex="1" hflex="1" sclass="second-layout">
+                                                            <div sclass="description-area" height="100%">
+                                                                <label value="${labels.addresss}"/>
+                                                            </div>
+                                                            <div sclass="description-area" height="100%">
+                                                                <textbox value="" hflex="1" id=""
+                                                                         width="200px"/>
                                                             </div>
                                                         </hlayout>
                                                     </row>
