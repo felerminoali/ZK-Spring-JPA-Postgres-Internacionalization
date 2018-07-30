@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/municipioapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/municipioapp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zcommon_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zel_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zweb_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_theme_sapphire_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_theme_silvertail_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zhtml_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zk_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zkplus_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zul_7_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/municipioapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/municipioapp.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/addclient.zul">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1452">
-              <caret line="66" column="87" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
+              <caret line="66" column="87" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -44,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/municipio/controller/AddClientController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="962">
-              <caret line="50" column="7" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="50" selection-end-column="7" />
+              <caret line="50" column="7" selection-start-line="29" selection-start-column="2" selection-end-line="50" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,16 +438,15 @@
       <workItem from="1532688590732" duration="9950000" />
       <workItem from="1532874879141" duration="7838000" />
       <workItem from="1532935876149" duration="7800000" />
-      <workItem from="1532967145541" duration="11519000" />
+      <workItem from="1532967145541" duration="11910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78820000" />
+    <option name="totallyTimeSpent" value="79211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32991454" />
@@ -457,9 +467,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6786325" />
       <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.6632479" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.6632479" />
       <window_info id="Persistence" order="2" side_tool="true" weight="0.3295107" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.2798165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.2798165" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.50085473" side_tool="true" weight="0.25" />
@@ -835,14 +845,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/addclient.zul">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
-          <caret line="66" column="87" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
+          <caret line="66" column="87" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/municipio/controller/AddClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="962">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="50" selection-end-column="7" />
+          <caret line="50" column="7" selection-start-line="29" selection-start-column="2" selection-end-line="50" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

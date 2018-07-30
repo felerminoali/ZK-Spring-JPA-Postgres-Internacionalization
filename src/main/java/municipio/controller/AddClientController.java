@@ -1,16 +1,15 @@
 package municipio.controller;
 
 import org.zkoss.zk.ui.Component;
-import org.zkoss.zk.ui.select.SelectorComposer;
-import org.zkoss.zk.ui.select.annotation.Listen;
-import org.zkoss.zk.ui.select.annotation.Wire;
+
+import org.zkoss.zk.ui.util.GenericForwardComposer;
 import org.zkoss.zul.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class AddClientController extends SelectorComposer<Component> {
+public class AddClientController extends GenericForwardComposer {
 
 
 //    @Wire("#grpData")
