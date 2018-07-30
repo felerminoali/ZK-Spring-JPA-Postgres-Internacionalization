@@ -28,7 +28,17 @@
     <favorites_list name="demoapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="addclient.zul" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/addclient.zul">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="66" column="87" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i3-label_pt.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/conta/otherdata.zul" />
         <option value="$PROJECT_DIR$/src/main/java/municipio/controller/AddClientController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/conta/addclient.zul" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/conta/addclient.zul" />
       </list>
     </option>
   </component>
@@ -136,7 +146,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="370" />
     <option name="y" value="171" />
     <option name="width" value="683" />
@@ -389,15 +399,15 @@
       <workItem from="1532688590732" duration="9950000" />
       <workItem from="1532874879141" duration="7838000" />
       <workItem from="1532935876149" duration="7800000" />
-      <workItem from="1532967145541" duration="10793000" />
+      <workItem from="1532967145541" duration="11173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78094000" />
+    <option name="totallyTimeSpent" value="78474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32991454" />
@@ -420,7 +430,7 @@
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.6632479" />
       <window_info id="Persistence" order="2" side_tool="true" weight="0.3295107" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.2798165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" weight="0.2798165" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="2" sideWeight="0.50085473" side_tool="true" weight="0.25" />
@@ -785,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/addclient.zul">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -821,6 +824,13 @@
     <entry file="file://$PROJECT_DIR$/target/classes/municipio/model/Item.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/conta/addclient.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="87" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="66" selection-end-column="87" />
+        </state>
       </provider>
     </entry>
   </component>
