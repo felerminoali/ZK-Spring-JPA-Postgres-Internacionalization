@@ -4,11 +4,12 @@
     <groupId>org.zkoss</groupId>
     <artifactId>zksandbox</artifactId>
     <packaging>war</packaging>
-    <version>5.0.9</version>
+    <version>7.0.0</version>
     <name>municipioapp Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
     <properties>
+        <!--<zk.version>8.5.0</zk.version>-->
         <zkel.version>1.1.0</zkel.version>
         <commons-lang.version>2.4</commons-lang.version>
         <bsh.version>2.0b4</bsh.version>
@@ -221,11 +222,11 @@
             <artifactId>commons-fileupload</artifactId>
             <version>${commons-fileupload.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.zkoss.theme</groupId>
-            <artifactId>breeze</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.zkoss.theme</groupId>-->
+            <!--<artifactId>breeze</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.zkoss.theme</groupId>
             <artifactId>sapphire</artifactId>
@@ -251,16 +252,16 @@
             <artifactId>zhtml</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.zkoss.zk</groupId>
-            <artifactId>zkex</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zk</groupId>
-            <artifactId>zkmax</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.zkoss.zk</groupId>-->
+            <!--<artifactId>zkex</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.zkoss.zk</groupId>-->
+            <!--<artifactId>zkmax</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.zkoss.zk</groupId>
             <artifactId>zkplus</artifactId>

@@ -59995,7 +59995,6 @@
     </key>
     <column id="14440" parent="14433" name="idrole">
       <Position>1</Position>
-      <Comment> </Comment>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>11661740</StateNumber>

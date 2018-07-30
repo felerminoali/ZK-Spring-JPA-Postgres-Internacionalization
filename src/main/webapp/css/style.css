@@ -7,7 +7,6 @@
 
 .second-layout{
     height: 100%;
-//   width="100%"
 }
 
 .second-layout>.z-hlayout-inner:first-child{
@@ -43,7 +42,6 @@
 
 .first-layout{
     height: 100%;
-//   width="100%"
 }
 
 .first-layout>.z-hlayout-inner:first-child{
@@ -130,4 +128,10 @@
 .small {
     font-size: 11px;
     padding: .2em 1em .275em;
+}
+
+
+[class*="z-"]:not([class*="z-icon-"]) {
+    font-family: Arial;
+
 }
