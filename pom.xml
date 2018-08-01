@@ -259,11 +259,11 @@
             <artifactId>zk</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.zkoss.zk</groupId>
-            <artifactId>zkex</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.zkoss.zk</groupId>-->
+            <!--<artifactId>zkex</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.zkoss.zk</groupId>
             <artifactId>zkmax</artifactId>
