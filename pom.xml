@@ -4,7 +4,7 @@
     <groupId>org.zkoss</groupId>
     <artifactId>zksandbox</artifactId>
     <packaging>war</packaging>
-    <version>5.0.9</version>
+    <version>6.0.0</version>
     <name>municipioapp Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
