@@ -228,6 +228,12 @@
             <!--<version>${project.version}</version>-->
         <!--</dependency>-->
         <dependency>
+            <groupId>org.zkoss.zk</groupId>
+            <artifactId>zkbind</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.zkoss.theme</groupId>
             <artifactId>sapphire</artifactId>
             <version>${project.version}</version>
