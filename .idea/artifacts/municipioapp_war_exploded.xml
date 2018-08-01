@@ -56,12 +56,6 @@
           <element id="library" level="project" name="Maven: org.zkoss.zk:zk:6.0.0" />
           <element id="library" level="project" name="Maven: org.zkoss.zk:zhtml:6.0.0" />
           <element id="library" level="project" name="Maven: org.zkoss.zk:zkplus:6.0.0" />
-          <element id="library" level="project" name="Maven: org.zkoss.zkforge:ckez:3.6.0.0" />
-          <element id="library" level="project" name="Maven: org.zkoss.zkforge:timelinez:2.3.1_50" />
-          <element id="library" level="project" name="Maven: org.zkoss.zkforge:timeplotz:1.1_50" />
-          <element id="library" level="project" name="Maven: org.zkoss.zkforge:gmapsz:2.0.51" />
-          <element id="library" level="project" name="Maven: org.zkoss.zk:zuljsp:1.5" />
-          <element id="library" level="project" name="Maven: org.zkoss.zkforge.el:zcommons-el:1.1.0" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
           <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
         </element>

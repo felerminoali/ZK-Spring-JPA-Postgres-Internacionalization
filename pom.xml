@@ -45,11 +45,11 @@
             <name>ZK CE Repository</name>
             <url>http://mavensync.zkoss.org/maven2</url>
         </repository>
-        <repository>
-            <id>ZK EVAL</id>
-            <name>ZK Evaluation Repository</name>
-            <url>http://mavensync.zkoss.org/eval</url>
-        </repository>
+        <!--<repository>-->
+            <!--<id>ZK EVAL</id>-->
+            <!--<name>ZK Evaluation Repository</name>-->
+            <!--<url>http://mavensync.zkoss.org/eval</url>-->
+        <!--</repository>-->
         <repository>
             <id>repository.springsource.milestone</id>
             <name>SpringSource Milestone Repository</name>
@@ -61,7 +61,7 @@
         <pluginRepository>
             <id>zkmaven</id>
             <name>ZK Maven Plugin Repository</name>
-            <url>http://mavensync.zkoss.org/maven2</url>
+            <url>http://mavensync.zkoss.org/maven2/</url>
         </pluginRepository>
         <pluginRepository>
             <releases>
@@ -222,11 +222,7 @@
             <artifactId>commons-fileupload</artifactId>
             <version>${commons-fileupload.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.zkoss.theme</groupId>-->
-            <!--<artifactId>breeze</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
+
         <dependency>
             <groupId>org.zkoss.zk</groupId>
             <artifactId>zkbind</artifactId>
@@ -258,51 +254,13 @@
             <artifactId>zhtml</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.zkoss.zk</groupId>-->
-            <!--<artifactId>zkex</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.zkoss.zk</groupId>-->
-            <!--<artifactId>zkmax</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
+
         <dependency>
             <groupId>org.zkoss.zk</groupId>
             <artifactId>zkplus</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.zkoss.zkforge</groupId>
-            <artifactId>ckez</artifactId>
-            <version>${ckez.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zkforge</groupId>
-            <artifactId>timelinez</artifactId>
-            <version>${timelinez.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zkforge</groupId>
-            <artifactId>timeplotz</artifactId>
-            <version>${timeplotz.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zkforge</groupId>
-            <artifactId>gmapsz</artifactId>
-            <version>${gmapsz.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zk</groupId>
-            <artifactId>zuljsp</artifactId>
-            <version>${zuljsp.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.zkoss.zkforge.el</groupId>
-            <artifactId>zcommons-el</artifactId>
-            <version>${zkel.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
