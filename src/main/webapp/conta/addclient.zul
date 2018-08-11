@@ -60,11 +60,11 @@
                                                                         <label value="${labels.legalentitytype}"/>
                                                                     </div>
                                                                     <div sclass="description-area" height="100%">
-                                                                        <!--<combobox hflex="1" id="cmbLegalentitytype"-->
-                                                                                  <!--model="${$composer.entidadeLegalModel}"-->
-                                                                                  <!--constraint=" no Empty: ${labels.selectone}">-->
-                                                                            <!--<comboitem label="${each}"/>-->
-                                                                        <!--</combobox>-->
+                                                                        <combobox hflex="1" id="cmbLegalentitytype"
+                                                                                  model="${$composer.entidadeLegalModel}"
+                                                                                  constraint=" no Empty: ${labels.selectone}">
+                                                                            <comboitem label="${each}"/>
+                                                                        </combobox>
                                                                     </div>
                                                                 </hlayout>
                                                             </row>
