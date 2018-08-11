@@ -45,7 +45,9 @@ public class DemoWebAppInit implements WebAppInit {
 	static String CONFIG = "zksandbox.properties";
 	final static String CATEGORY_TYPE = "CATEGORY";
 	final static String LINK_TYPE = "LINK";
-	
+
+	/*package*/ final static String KEY_SILVERGREY_PROPERTY = "org.zkoss.zul.themejar.silvergray";
+	/*package*/ final static String THEME_DEFAULT = "org.zkoss.theme.default";
 	@SuppressWarnings("serial")
 	private static Map<String, Category> _cateMap = new LinkedHashMap<String, Category> () {
 		
