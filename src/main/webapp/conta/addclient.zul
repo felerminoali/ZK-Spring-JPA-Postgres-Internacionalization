@@ -6,6 +6,7 @@
             <tabbox>
                 <tabs>
                     <tab label="${labels.clientinfo}"></tab>
+
                 </tabs>
                 <tabpanels>
                     <tabpanel>
@@ -63,6 +64,7 @@
                                                                         <combobox hflex="1" id="cmbLegalentitytype"
                                                                                   model="${$composer.entidadeLegalModel}"
                                                                                   constraint=" no Empty: ${labels.selectone}">
+                                                                            <attribute name="onCreate"></attribute>
                                                                             <comboitem label="${each}"/>
                                                                         </combobox>
                                                                     </div>

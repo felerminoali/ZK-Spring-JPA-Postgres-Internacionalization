@@ -1,13 +1,18 @@
 package municipio.controller;
 
+import municipio.domain.Item;
+import municipio.service.CRUDService;
 import org.zkoss.zk.ui.Component;
 
 
 import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zk.ui.select.annotation.Listen;
 import org.zkoss.zk.ui.select.annotation.Wire;
+import org.zkoss.zkplus.spring.SpringUtil;
 import org.zkoss.zul.*;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,7 +39,7 @@ public class AddClientController extends SelectorComposer {
         List<String> entidadeLegal = new ArrayList<String>();
 
         // Get data from Database
-        entidadeLegal.add("Pessoa Singular");
+        entidadeLegal.add("Pessoa Singularrr");
         entidadeLegal.add("Organização");
 
         return new ListModelList<String>(entidadeLegal);
@@ -42,6 +47,13 @@ public class AddClientController extends SelectorComposer {
 
     @Listen("onChange = combobox#cmbLegalentitytype")
     public void change() {
+        CRUDService csimp = (CRUDService) SpringUtil.getBean("CRUDService");
+
+        //    java.util.Map par = new java.util.HashMap();
+        //   par.clear();
+        List<Item> i = csimp.getAll(Item.class);
+        Messagebox.show(i+"");
+
        String str = cmbLegalentitytype.getSelectedItem().getValue();
         if(str.equals("Pessoa Singular")) {
             grpData.setVisible(true);

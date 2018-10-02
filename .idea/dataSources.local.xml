@@ -9,6 +9,9 @@
       <secret-storage>master_key</secret-storage>
       <user-name>ucaqslvzvwulkx</user-name>
       <introspection-schemas>demj2v48ftnj5t:public</introspection-schemas>
+      <ssl-config>
+        <enabled>true</enabled>
+      </ssl-config>
     </data-source>
   </component>
 </project>

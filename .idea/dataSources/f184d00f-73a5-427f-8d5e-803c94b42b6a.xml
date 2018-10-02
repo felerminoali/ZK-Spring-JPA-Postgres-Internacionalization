@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="demj2v48ftnj5t@ec2-54-83-33-213.compute-1.amazonaws.com">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.9">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.10">
     <root id="1">
       <ServerVersion>10.4</ServerVersion>
     </root>

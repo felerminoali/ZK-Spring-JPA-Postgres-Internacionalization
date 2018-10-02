@@ -31,7 +31,7 @@ public class TenantIdResolver implements CurrentTenantIdentifierResolver {
             o = s.getAttribute("tenant");
             if(o!=null)return (String)o;
         }
-        return "fecn1";
+        return "public";
     }
 
     @Autowired
@@ -57,7 +57,7 @@ public class TenantIdResolver implements CurrentTenantIdentifierResolver {
             o = s.getAttribute("tenant");
             if(o!=null)return (String)o;
         }
-        return "fecn1";
+        return "public";
 //         return TenantIdResolver.tenant.get();
     }
 

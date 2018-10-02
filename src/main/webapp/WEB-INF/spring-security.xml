@@ -44,7 +44,6 @@
 
     <authentication-manager>
         <authentication-provider user-service-ref="myUserDetailsService">
-
         </authentication-provider>
     </authentication-manager>
 

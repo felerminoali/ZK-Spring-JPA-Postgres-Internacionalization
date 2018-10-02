@@ -29,7 +29,7 @@ public class MultiTenantConnectionProviderImpl extends AbstractDataSourceBasedMu
     private ComboPooledDataSource defaultDataSource;
 
     public MultiTenantConnectionProviderImpl() {
-        PooledDataSource pds = C3P0Registry.pooledDataSourceByName("fecn1");
+        PooledDataSource pds = C3P0Registry.pooledDataSourceByName("public");
         if (pds == null) {
             System.out.println("Criou novo pool");
             defaultDataSource = new ComboPooledDataSource("demj2v48ftnj5t");
