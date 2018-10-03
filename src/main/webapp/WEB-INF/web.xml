@@ -21,7 +21,7 @@ Copyright (C) 2004 Potix Corporation. All Rights Reserved.
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			/WEB-INF/applicationContext.xml
-			/WEB-INF/spring-security.xml
+			<!--/WEB-INF/spring-security.xml-->
 		</param-value>
 	</context-param>
 
