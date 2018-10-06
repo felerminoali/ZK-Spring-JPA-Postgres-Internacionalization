@@ -14,6 +14,8 @@ public interface CRUDDao {
 
     <T> void update(T klass);
     
+    <T> void refresh(T klass);
+    
     <T> void updates(T klass);
 
     <T> boolean exist(T klass);
@@ -22,9 +24,13 @@ public interface CRUDDao {
     
     <T> int updateQuery(String query, Object... params);
     
+    
+    
     <T> int count(Class<T> klass);
     
     <T> Long countJPQuery(String hql, Map<String, Object> namedParams);
+    
+    <T> Float sumJPQuery(String hql, Map<String, Object> namedParams);
 
     <T> void Save(T klass);
     
@@ -41,6 +47,8 @@ public interface CRUDDao {
     <T> List<T> findByJPQuery(String hql, Map<String, Object> namedParams);
     
     <T> T findEntByJPQuery(String hql, Map<String, Object> namedParams);
+    
+    <T> T findEntByJPQueryT(String hql, Map<String, Object> namedParams);//com transacao
     
     <T> T findEntByJPQueryLock(String hql, Map<String, Object> namedParams);
     
@@ -61,4 +69,12 @@ public interface CRUDDao {
      <T> T getLocked(Class<T> klass, Serializable id);
      
      <T> T loadLocked(Class<T> klass, Serializable id);
+     
+     ////////////////////////////////////////tenant param///////////////////////////////////////////
+     <T> int updateQuerySes(String query, String tenant);
+     <T> T getSes(Class<T> klass, Serializable id, String tenant);
+     <T> void SaveSes(T klass, String tenant);
+     <T> void updateSes(T klass, String tenant);
+     <T> void refreshSes(T klass, String tenant);
+     <T> T findEntByJPQuerySes(String hql, Map<String, Object> namedParams, String tenant);
 }

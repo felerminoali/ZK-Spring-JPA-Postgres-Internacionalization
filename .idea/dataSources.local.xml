@@ -13,5 +13,14 @@
         <enabled>true</enabled>
       </ssl-config>
     </data-source>
+    <data-source name="municipio@localhost" uuid="d9a68c5c-f126-4e3d-92f7-3e0f3cf4dfbe">
+      <database-info product="PostgreSQL" version="10.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="10.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>municipio:municipio</introspection-schemas>
+    </data-source>
   </component>
 </project>

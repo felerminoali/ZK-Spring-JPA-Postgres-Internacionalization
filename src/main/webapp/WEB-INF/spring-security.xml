@@ -21,7 +21,7 @@
     <!-- ====================================================== -->
 
     <!-- Enable the @Secured annotation to secure service layer methods -->
-    <global-method-security secured-annotations="enabled"/>
+    <!--<global-method-security secured-annotations="enabled"/>-->
 
     <http auto-config="true">
 
@@ -35,20 +35,22 @@
         <form-login login-page="/login.zul"
                     authentication-failure-url="/login.zul?login_error=1"
                     default-target-url="/index.zul" always-use-default-target="true"/>
+        <!--login-processing-url="/j_spring_security_check"-->
         <intercept-url pattern="/timeout.zul" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/login.zul" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <!--<intercept-url pattern="/webapp/*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
-         <!--<intercept-url pattern="/visitante/visitante.zul" access="IS_AUTHENTICATED_ANONYMOUSLY" />-->
-        <intercept-url pattern="/*.zul" access="IS_AUTHENTICATED_REMEMBERED"/>
+        <intercept-url pattern="/**" access="ROLE_ADMIN"/>
+        <!--<intercept-url pattern="/**" access="IS_AUTHENTICATED_REMEMBERED"/>-->
     </http>
+
+
 
     <authentication-manager>
         <authentication-provider user-service-ref="myUserDetailsService">
+            <!--<password-encoder hash="md5" />-->
         </authentication-provider>
     </authentication-manager>
 
-    <beans:bean id="myUserDetailsService" class="municipio.service.MyUserDetailsService"/>
-
+    <beans:bean id="myUserDetailsService" class="municipio.service.CustomUserDetailsService"/>
 
 </beans:beans>
 

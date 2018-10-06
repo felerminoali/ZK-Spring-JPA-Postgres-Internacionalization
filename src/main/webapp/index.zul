@@ -40,7 +40,31 @@ Copyright (C) 2008 Potix Corporation. All Rights Reserved.
 				<category zclass="demo-category" forEach="${main$MainLayoutComposer.categories}" id="${each.id}" image="${each.icon}" label="${each.label}" 
 				forward="onClick=main.onCategorySelect"/>
 			</categorybar>
+
+
+
+				<label id="logout" style="color:red" value="Sair do Sistema" if="${not sessionScope.userCredential.anonymous}" sclass="logout"/>
+
 		</div>
+
+
+			<!--<hbox  id="autent" style="align:center" apply="municipio.controller.LoginController"-->
+				   <!--hflex="min" vflex="min" pack="end" align="end" >-->
+
+				<!--<label id="user" sclass="loguser" if="${not sessionScope.userCredential.anonymous}"/>-->
+				<!--<window apply="municipio.controller.LoginController" id="conta" mode="overlapped" position="right,top"  visible="false" width="200px" >-->
+
+					<!--<vbox>-->
+
+						<!--<space />-->
+						<!--<label id="logout" style="color:red" value="Sair do Sistema" if="${not sessionScope.userCredential.anonymous}" sclass="logout"/>-->
+					<!--</vbox>-->
+
+				<!--</window>-->
+			<!--</hbox>-->
+
+
+
 	</north>
 	<west title="ZK ${desktop.webApp.version}" size="250px" flex="true" splittable="true"
 		minsize="210" maxsize="500" collapsible="true">

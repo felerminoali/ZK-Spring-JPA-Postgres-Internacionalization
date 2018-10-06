@@ -21,7 +21,7 @@ Copyright (C) 2004 Potix Corporation. All Rights Reserved.
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			/WEB-INF/applicationContext.xml
-			/WEB-INF/spring-security.xml
+            /WEB-INF/spring-security.xml
 		</param-value>
 	</context-param>
 
@@ -32,9 +32,9 @@ Copyright (C) 2004 Potix Corporation. All Rights Reserved.
 
 
 	<!-- For using web scoped bean -->
-	<!--<listener>-->
-		<!--<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>-->
-	<!--</listener>-->
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
 
 	<!-- A servlet filter capturing every user requests and sending them to
 		the configured security filters to make sure access is authorized. -->

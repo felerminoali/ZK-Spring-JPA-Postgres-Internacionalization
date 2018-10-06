@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-54-83-33-213.compute-1.amazonaws.com:5432/demj2v48ftnj5t?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="municipio@localhost" uuid="d9a68c5c-f126-4e3d-92f7-3e0f3cf4dfbe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/municipio</jdbc-url>
+    </data-source>
   </component>
 </project>

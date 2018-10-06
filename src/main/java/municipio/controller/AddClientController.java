@@ -1,6 +1,6 @@
 package municipio.controller;
 
-import municipio.domain.Item;
+import municipio.domain.Users;
 import municipio.service.CRUDService;
 import org.zkoss.zk.ui.Component;
 
@@ -11,8 +11,6 @@ import org.zkoss.zk.ui.select.annotation.Wire;
 import org.zkoss.zkplus.spring.SpringUtil;
 import org.zkoss.zul.*;
 
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,10 +47,11 @@ public class AddClientController extends SelectorComposer {
     public void change() {
         CRUDService csimp = (CRUDService) SpringUtil.getBean("CRUDService");
 
-        //    java.util.Map par = new java.util.HashMap();
-        //   par.clear();
-        List<Item> i = csimp.getAll(Item.class);
-        Messagebox.show(i+"");
+        Users u = csimp.findEntByJPQueryT("SELECT u FROM Users u WHERE u.name = 'admin'", null);
+//            java.util.Map par = new java.util.HashMap();
+//           par.clear();
+//        List<Users> i = csimp.getAll(Users.class);
+        Messagebox.show(u.getName()+"");
 
        String str = cmbLegalentitytype.getSelectedItem().getValue();
         if(str.equals("Pessoa Singular")) {
