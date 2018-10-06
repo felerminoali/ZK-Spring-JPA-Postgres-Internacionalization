@@ -4,66 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/org/zkoss/zksandbox/DemoWebAppInit.java" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/domain/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/domain/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/error/AjaxAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Certificado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Cidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Clienteorganizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Clientesingular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Dadoscontacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Estadocivil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Metodocontacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Metodocontactoadicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Postoadministrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Provincia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Sexo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Tipocontacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Tipoentidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Tipoidentificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/Tipoorganizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/modelo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/repository/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/service/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/municipio/service/SpringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/errors/displayAccessDeniedException.zul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/errors/handleAccessDenied.zul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/municipioapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/municipioapp_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/municipioapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/municipioapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/controller/AddClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/controller/AddClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/dao/CRUDDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/dao/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/dao/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/domain/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/domain/Roleitem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/domain/RoleitemPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/service/CRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/service/CRUDService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/service/CRUDServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/service/CRUDServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/municipio/service/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/zk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/zk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.zul" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.zul" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.zul" afterDir="false" />
-    </list>
+    <list default="true" id="c9530bc1-6b3a-4e26-bbf5-977de2310682" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,20 +163,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="100">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/municipio/service/CustomUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1274#1280#0" expanded="true" />
@@ -347,9 +288,9 @@
         <option value="$PROJECT_DIR$/src/main/java/municipio/modelo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/municipio/domain/CustomUserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/municipio/domain/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/municipio/service/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -503,7 +444,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="d9a68c5c-f126-4e3d-92f7-3e0f3cf4dfbe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538841852906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538842796148" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -678,7 +619,7 @@
       <workItem from="1538650161730" duration="2249000" />
       <workItem from="1538712323115" duration="3346000" />
       <workItem from="1538745941789" duration="2093000" />
-      <workItem from="1538799274413" duration="35977000" />
+      <workItem from="1538799274413" duration="36980000" />
     </task>
     <servers />
   </component>
@@ -703,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200981000" />
+    <option name="totallyTimeSpent" value="201984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,7 +671,7 @@
       <window_info id="Learn" order="9" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5433715" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5433715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -740,7 +681,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.26841244" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.5433715" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1190,21 +1131,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/municipio/service/CustomUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1274#1280#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
