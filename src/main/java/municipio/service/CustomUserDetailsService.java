@@ -30,21 +30,21 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 //            Optional<Users> optionalUsers = usersRepository.findByName(username);
 
-        Users u = new Users();
-        u.setId(1);
-        u.setName("admin");
-        u.setPassword("admin");
-        Set<Role> roleSet = new HashSet<Role>();
+//        Users u = new Users();
+//        u.setId(1);
+//        u.setName("admin");
+//        u.setPassword("admin");
+//        Set<Role> roleSet = new HashSet<Role>();
+//
+//        Role r = new Role();
+//        r.setRoleId(1);
+//        r.setRole("ADMIN");
+//        roleSet.add(r);
+//        u.setRoles(roleSet);
 
-        Role r = new Role();
-        r.setRoleId(1);
-        r.setRole("ADMIN");
-        roleSet.add(r);
-        u.setRoles(roleSet);
-
-//        Users u = crudService.findEntByJPQueryT("SELECT u FROM Users u WHERE u.name = 'admin'", null);
-//        u.setRoles(u.getRoles());
-        u.setRoles(roleSet);
+        Users u = crudService.findEntByJPQueryT("SELECT u FROM Users u WHERE u.name = 'admin'", null);
+        u.setRoles(u.getRoles());
+//        u.setRoles(roleSet);
         Optional<Users> optionalUsers = Optional.of(u);
 
             optionalUsers
