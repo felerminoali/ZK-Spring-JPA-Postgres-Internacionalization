@@ -32,13 +32,12 @@
         <!-- for a error message by a failure. -->
         <!-- Further the page after a successfully login. -->
         <!-- ====================================================== -->
-        <form-login login-page="/login.zul"
-                    authentication-failure-url="/login.zul?login_error=1"
+        <form-login login-page="/login.html"
+                    authentication-failure-url="/login.html?login_error=1"
                     default-target-url="/index.zul" always-use-default-target="true"/>
         <!--login-processing-url="/j_spring_security_check"-->
         <intercept-url pattern="/timeout.zul" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <intercept-url pattern="/login.zul" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <!--<intercept-url pattern="/**" access="ROLE_ADMIN"/>-->
+        <intercept-url pattern="/login.html" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/**" access="IS_AUTHENTICATED_REMEMBERED"/>
     </http>
 
@@ -46,7 +45,7 @@
 
     <authentication-manager>
         <authentication-provider user-service-ref="myUserDetailsService">
-            <!--<password-encoder hash="md5" />-->
+            <password-encoder hash="md5" />
         </authentication-provider>
     </authentication-manager>
 
